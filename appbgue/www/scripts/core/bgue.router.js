@@ -21,12 +21,32 @@
             .state('home', {
                 views: {
                     "container": {
-                        templateUrl: 'templates/bgue-index.html'
+                        templateUrl: 'templates/bgue-index.html',
+                        controller: 'MainController',
+                        controllerAs: 'home'
+                    }
+                }
+            })
+            .state('track1', {
+                views: {
+                    "container": {
+                        templateUrl: 'templates/bgue-track1.html',
+                        controller: 'Track1Controller',
+                        controllerAs: 'track1Ctrl'
+                    }
+                }
+            })
+            .state('track2', {
+                views: {
+                    "container": {
+                        templateUrl: 'templates/bgue-track2.html',
+                        controller: 'Track2Controller',
+                        controllerAs: 'track2Ctrl'
                     }
                 }
             });
     }
-    
+
     function run($state) {
         $state.go('home');
     }

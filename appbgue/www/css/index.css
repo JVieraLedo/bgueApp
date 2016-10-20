@@ -1,9 +1,4 @@
-﻿/***
-    Copyright (c) Microsoft. All rights reserved.  Licensed under the MIT license. See LICENSE file in the project root for full license information.
-*/
-
-/* reset layout*/
-html,
+﻿html,
 body {
     margin: 0;
     padding: 0;
@@ -13,6 +8,30 @@ body {
 
 /* body*/
 body {
-    background-color: #389151;
+    background-color: rgb(232,245,233);
     background-size: 100% 100%;
 }
+
+.no-background {
+    background-color: transparent !important;
+}
+
+.inputdemoIcons {
+    /*
+  .right-icon {
+    position: absolute;
+    top: 4px;
+    right: 2px;
+    left: auto;
+    margin-top: 0;
+  }
+  */ }
+.inputdemoIcons .inputIconDemo {
+    min-height: 48px; }
+.inputdemoIcons md-input-container:not(.md-input-invalid) > md-icon.email {
+    color: green; }
+.inputdemoIcons md-input-container:not(.md-input-invalid) > md-icon.name {
+    color: dodgerblue; }
+.inputdemoIcons md-input-container.md-input-invalid > md-icon.email,
+.inputdemoIcons md-input-container.md-input-invalid > md-icon.name {
+    color: red; }

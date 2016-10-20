@@ -8,11 +8,18 @@
     }, false);
 
     angular
-        .module('bgue', ['ui.router', 'bgue.services', 'bgue.controllers', 'bgue.directives']);
+        .module('bgue',
+            [
+                'ngMaterial',
+                'ui.router',
+                'bgue.services',
+                'bgue.controllers',
+                'bgue.directives'
+            ]);
     angular
         .module('bgue.directives', []);
     angular
-        .module('bgue.controllers', []);
+        .module('bgue.controllers', ['ngMessages']);
     angular
         .module('bgue.services', ['ngResource']);
 
