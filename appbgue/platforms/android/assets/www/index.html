@@ -6,24 +6,25 @@ Copyright (c) Microsoft. All rights reserved.  Licensed under the MIT license. S
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
-    <title>App_Bgue</title>
+    <title>AppBgue</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet"/>
     <link href="css/flexslider.css" rel="stylesheet"/>
     <link href="css/font-awesome.min.css" rel="stylesheet"/>
     <link href="css/index.css" rel="stylesheet"/>
     <link href="scripts/frameworks/angular-material/angular-material.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 </head>
 
 <body ng-app="bgue" ng-cloak>
 
-<div class="container-fluid" >
+<div class="container-fluid" md-theme="bgueTheme">
     <div ui-view="container"></div>
 </div>
 
 
 <!-- Cordova reference, this is added to your app when it's built. -->
-<script src="cordova.js"></script>
+<!--<script src="cordova.js"></script>-->
 
 <!-- Angular JS -->
 <script src="scripts/frameworks/angular.min.js"></script>
@@ -36,6 +37,7 @@ Copyright (c) Microsoft. All rights reserved.  Licensed under the MIT license. S
 
 <!-- Initialize all the modules -->
 <script src="scripts/core/bgue.module.js"></script>
+<script src="scripts/core/bgue.config.js"></script>
 <script src="scripts/core/bgue.router.js"></script>
 
 <!-- Services -->
