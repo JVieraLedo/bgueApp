@@ -2,9 +2,11 @@
     'use strict';
     angular.module('bgue')
         .config(function ($mdThemingProvider) {
-            // $mdThemingProvider.theme('bgueTheme')
-            //     .primaryPalette('green')
-            //     .accentPalette('orange');
+            $mdThemingProvider.theme('card')
+                .backgroundPalette('green', {
+                    'default': '600'
+                })
+                .dark();
             $mdThemingProvider
                 .theme('bgueTheme')
                 .primaryPalette('light-green', {

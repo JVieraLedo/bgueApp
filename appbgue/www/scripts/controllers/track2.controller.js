@@ -9,13 +9,7 @@
 
     function Track2Controller() {
         var vm = this;
-        vm.user = {
-            name: 'John Doe',
-            email: '',
-            phone: '',
-            address: 'Mountain View, CA',
-            donation: 19.99
-        };
+        vm.user = {};
 
     }
 
