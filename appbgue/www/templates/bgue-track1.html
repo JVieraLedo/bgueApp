@@ -1,33 +1,33 @@
 ﻿<header>
-    <h1 class="page-title screen-reader-text">TRACK 1</h1>
+    <h1 class="page-title screen-reader-text">Ofertas Disponibles</h1>
 </header>
 <md-content>
-    <div class="col-md-6 col-xs-12">
-        <md-content class="md-padding">
-            <div layout="row" layout-margin>
-                <md-input-container flex="">
-                    <label>Nombre <span>*</span></label>
-                    <input type="text" ng-model="track1Ctrl.name">
-                </md-input-container>
-            </div>
-        </md-content>
-    </div>
-    <div class="col-md-6 col-xs-12">
-        <md-content class="md-padding">
-            <div layout="row" layout-margin>
-                <md-input-container flex="">
-                    <label>Apellidos <span>*</span></label>
-                    <input type="text" ng-model="track1Ctrl.surname">
-                </md-input-container>
-            </div>
-        </md-content>
-    </div>
+    <md-card md-theme="card" md-theme-watch ng-repeat="of in track1Ctrl.oferts">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline"><em>{{::of.name}}</em></span>
+                <span class="md-subhead">{{::of.type}} por {{::of.price}} &#8364;</span>
+            </md-card-title-text>
+            <md-card-title-media>
+                <div class="md-media-sm">
+                    <img src="images/huevos.png">
+                </div>
+            </md-card-title-media>
+        </md-card-title>
+        <md-card-actions layout="row" layout-align="start center">
+            <md-checkbox class="green" ng-model="of.check"><em>SELECCIONAR</em></md-checkbox>
+        </md-card-actions>
+    </md-card>
 </md-content>
 <footer>
     <div class="container-fluid">
-        <div class="pull-right">
+        <div class="pull-right btn-footer">
             <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                <md-button class="md-accent md-raised md-hue-1" ui-sref="track2">Continuar</md-button>
+                <md-button class="md-accent md-raised" ui-sref="track2">
+                    continuar
+                    <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/share-arrow.svg"></md-icon>
+                </md-button>
+
             </section>
         </div>
     </div>
