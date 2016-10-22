@@ -1,51 +1,54 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
+Copyright (c) Microsoft. All rights reserved.  Licensed under the MIT license. See LICENSE file in the project root for full license information.
 -->
 <html>
 <head>
-    <!--
-    Customize this policy to fit your own app's needs. For more guidance, see:
-        https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-    Some notes:
-        * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-        * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-        * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-            * Enable inline JS: add 'unsafe-inline' to default-src
-    -->
-    <meta http-equiv="Content-Security-Policy"
-          content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-    <meta name="format-detection" content="telephone=no">
-    <meta name="msapplication-tap-highlight" content="no">
-    <meta name="viewport"
-          content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
-    <title>App Bgüe</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>App_Bgue</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="css/flexslider.css" rel="stylesheet"/>
+    <link href="css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="css/index.css" rel="stylesheet"/>
+    <link href="scripts/frameworks/angular-material/angular-material.min.css" rel="stylesheet" />
 </head>
-<body>
-<div class="app">
-    <h1>App Bgüe</h1>
-    <div id="deviceready" class="blink">
-        <p class="event listening">Connecting to Device</p>
-        <p class="event received">Device is Ready</p>
-    </div>
+
+<body ng-app="bgue" ng-cloak>
+
+<div class="container-fluid" md-theme="bgueTheme">
+    <div ui-view="container"></div>
 </div>
-<!--<script type="text/javascript" src="cordova.js"></script>-->
-<!--<script type="text/javascript" src="js/index.js"></script>-->
+
+
+<!-- Cordova reference, this is added to your app when it's built. -->
+<!--<script src="cordova.js"></script>-->
+
+<!-- Angular JS -->
+<script src="scripts/frameworks/angular.min.js"></script>
+<script src="scripts/frameworks/angular-resource.min.js"></script>
+<script src="scripts/frameworks/angular-ui-router.min.js"></script>
+<script src="scripts/frameworks/angular-material/angular-material.min.js"></script>
+<script src="scripts/frameworks/angular-animate.min.js"></script>
+<script src="scripts/frameworks/angular-aria.min.js"></script>
+<script src="scripts/frameworks/angular-messages.min.js"></script>
+
+<!-- Initialize all the modules -->
+<script src="scripts/core/bgue.module.js"></script>
+<script src="scripts/core/bgue.config.js"></script>
+<script src="scripts/core/bgue.router.js"></script>
+
+<!-- Services -->
+
+
+<!-- Directives -->
+
+
+<!-- Controllers -->
+<script src="scripts/controllers/main.controller.js"></script>
+<script src="scripts/controllers/track1.controller.js"></script>
+<script src="scripts/controllers/track2.controller.js"></script>
+
 </body>
 </html>
