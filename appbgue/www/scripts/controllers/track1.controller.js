@@ -9,15 +9,35 @@
 
     function Track1Controller() {
         var vm = this;
-
-        vm.oferts = [
-            {name:"Oferta 1", type: "2 x 1",   price: "12,50"},
-            {name:"Oferta 2", type: "100 Ud.", price: "8,50"},
-            {name:"Oferta 3", type: "200 Ud.", price: "15,50"},
-            {name:"Oferta 4", type: "300 Ud.", price: "23,50"},
-            {name:"Oferta 5", type: "400 Ud.", price: "27,50"},
-            {name:"Oferta 6", type: "500 Ud.", price: "32,50"}
+        vm.articles = [
+            {name: '100 huevos', val:20},
+            {name: '200 huevos', val:40},
+            {name: '300 huevos', val:60},
+            {name: '400 huevos', val:80}
         ];
+
+        vm.todos = [];
+
+        vm.addTodo = function() {
+            vm.todos.push({text:vm.todoText, done:false});
+            vm.todoText = '';
+        };
+
+        vm.remaining = function() {
+            var count = 0;
+            angular.forEach(vm.todos, function(todo) {
+                count += todo.done ? 0 : 1;
+            });
+            return count;
+        };
+
+        vm.archive = function() {
+            var oldTodos = vm.todos;
+            vm.todos = [];
+            angular.forEach(oldTodos, function(todo) {
+                if (!todo.done) vm.todos.push(todo);
+            });
+        };
 
     }
 

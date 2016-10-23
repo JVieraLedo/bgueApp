@@ -1,34 +1,60 @@
-﻿<header>
-    <h1 class="page-title screen-reader-text">Ofertas Disponibles</h1>
-</header>
-<md-content>
-    <md-card md-theme="card" md-theme-watch ng-repeat="of in track1Ctrl.oferts">
-        <md-card-title>
-            <md-card-title-text>
-                <span class="md-headline"><em>{{::of.name}}</em></span>
-                <span class="md-subhead">{{::of.type}} por {{::of.price}} &#8364;</span>
-            </md-card-title-text>
-            <md-card-title-media>
-                <div class="md-media-sm">
-                    <img src="images/huevos.png">
-                </div>
-            </md-card-title-media>
-        </md-card-title>
-        <md-card-actions layout="row" layout-align="start center">
-            <md-checkbox class="green" ng-model="of.check"><em>SELECCIONAR</em></md-checkbox>
-        </md-card-actions>
-    </md-card>
-</md-content>
-<footer>
-    <div class="container-fluid">
-        <div class="pull-right btn-footer">
-            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                <md-button class="md-accent md-raised" ui-sref="track2">
-                    continuar
-                    <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/share-arrow.svg"></md-icon>
-                </md-button>
+﻿<md-toolbar layout="row" layout-align="center">
+    <md-button class="menu" hide-gt-sm ng-click="ul.toggleTodo()" aria-label="Show todo groups">
+        <md-icon md-svg-icon="menu"></md-icon>
+    </md-button>
+    <h2> Material Todo App</h2>
+</md-toolbar>
 
-            </section>
+<div flex layout="row" id="mainBody">
+    <md-content class="md-padding">
+        <form ng-submit="track1Ctrl.addTodo()">
+            <div layout layout-align-gt-sm="center center" class="row">
+                <div class="col-xs-4">
+                    <md-input-container flex="150">
+                        <label>Articulo</label>
+                        <md-select ng-model="track1Ctrl.article">
+                            <md-option><em>Ninguna</em></md-option>
+                            <md-option ng-repeat="art in track1Ctrl.articles" ng-value="art.val" ng-disabled="$index === 1">
+                                {{art.name}}
+                            </md-option>
+                        </md-select>
+                    </md-input-container>
+                </div>
+                <div class="col-xs-4">
+                    <md-input-container flex="150">
+                        <label>Articulo</label>
+                        <md-select ng-model="track1Ctrl.article">
+                            <md-option><em>Ninguna</em></md-option>
+                            <md-option ng-repeat="art in track1Ctrl.articles" ng-value="art.val" ng-disabled="$index === 1">
+                                {{art.name}}
+                            </md-option>
+                        </md-select>
+                    </md-input-container>
+                </div>
+                <div class="col-xs-3">
+                    <md-input-container flex="85">
+                        <label>{{track1Ctrl.price}}</label>
+                    </md-input-container>
+                </div>
+                <div class="pull-right">
+                    <md-input-container>
+                        <md-button type="submit" class="md-fab md-mini" aria-label="Añadir articulo">
+                            <md-icon md-svg-icon="add"></md-icon>
+                        </md-button>
+                    </md-input-container>
+                </div>
+            </div>
+        </form>
+
+        <div>
+            <ul>
+                <li ng-repeat="todo in track1Ctrl.todos">
+                    <md-checkbox ng-model="todo.done" aria-label="Todo Checkbox" ng-init="todo.done=false">
+                        {{todo.text}}
+                    </md-checkbox>
+                    <md-divider></md-divider>
+                </li>
+            </ul>
         </div>
-    </div>
-</footer>
+    </md-content>
+</div>

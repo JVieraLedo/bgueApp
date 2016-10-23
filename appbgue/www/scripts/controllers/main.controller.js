@@ -5,12 +5,16 @@
         .controller('MainController', MainController);
 
 
-    MainController.$inject = [];
+    MainController.$inject = ['$state'];
 
-    function MainController() {
+    function MainController($state) {
         var vm = this;
 
-        vm.hello = 'HOLAAA';
+       vm.continue = function () {
+
+           $state.go('track1');
+
+       }
 
     }
 
