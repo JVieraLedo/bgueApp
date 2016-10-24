@@ -10,7 +10,7 @@
     function MainController() {
         var vm = this;
 
-        vm.hello = 'HOLAAA';
+        vm.user = [];
 
     }
 
