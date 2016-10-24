@@ -5,12 +5,10 @@
         .controller('Track1Controller', Track1Controller);
 
 
-    Track1Controller.$inject = ['$firebaseArray', 'dataService', 'FIREBASE_URL'];
+    Track1Controller.$inject = ['$state', 'dataService', 'FIREBASE_URL'];
 
-    function Track1Controller($firebaseArray, dataService, FIREBASE_URL) {
+    function Track1Controller($state, dataService, FIREBASE_URL) {
         var vm = this;
-        var database = firebase.database();
-
 
         vm.products = [
             {name: '100 huevos', val: 20},
@@ -35,14 +33,64 @@
             {value: '50 Und.', val: 50},
             {value: '100 Und.', val: 100}
         ];
+        vm.methodTypes = [
+            {info:"Enviar el pedido a casa, incremento de 15 euros", method:"home"},
+            {info:"Recoger en tienda", method:"shop"}
+        ];
 
         vm.articles = [];
+        vm.method = {};
 
         vm.addArticle = function () {
             var objectPost = {product: vm.product, quantity: vm.quantity, price: (vm.product.val * vm.quantity.val)};
             vm.articles.push(objectPost);
-            dataService.postData(objectPost);
+            // dataService.postData(parseInt(idReference), objectPost);
+            clearDataProduct();
+            getTotal();
         };
+
+        vm.removeArt = function (index) {
+            vm.articles.splice(index, 1);
+            getTotal();
+
+        };
+
+        vm.continue = function(){
+            $state.go('track2');
+        };
+
+        function clearDataProduct() {
+            vm.product = null;
+            vm.quantity = null;
+            vm.method = null;
+        }
+
+        function getTotal() {
+            vm.totalPrice = totals();
+            vm.discount = discounts();
+            vm.total = vm.totalPrice - vm.discount;
+        }
+
+        function discounts() {
+            var total = totals();
+            if (total <= 10) {
+                return 10;
+            } else if (total > 10 && total <= 60) {
+                return 20;
+            } else if (total > 60) {
+                return 30;
+            }
+        }
+
+        function totals() {
+            var total = 0;
+            for (var i = 0; i < vm.articles.length; i++) {
+                var article = vm.articles[i];
+                total += article.price;
+            }
+            return total;
+        }
+
 
     }
 

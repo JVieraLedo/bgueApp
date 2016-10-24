@@ -9,7 +9,7 @@ body {
 
 /* body*/
 body {
-    background-image: url('/images/fondo.png');
+    background-image: url('../images/fondo.png');
     background-size: 100% 100%;
 }
 
@@ -67,6 +67,10 @@ md-checkbox.md-checked.green .md-icon {
 }
 
 .table > tbody > tr > td {
+    vertical-align: middle;
+}
+
+.va-m {
     vertical-align: middle;
 }
 

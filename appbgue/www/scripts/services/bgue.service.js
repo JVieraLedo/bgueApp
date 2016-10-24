@@ -63,7 +63,7 @@
 
     function dataService() {
         var factory = {};
-        factory.entity = function( object ){
+        factory.entity = function (object) {
             return {
                 product: object.product,
                 quantity: object.quantity,
@@ -75,12 +75,34 @@
             postData: postData
         };
 
-        function postData(object) {
-            var newPostKey = firebase.database().ref().child('pedidos').push().key;
-            var updates = {};
-            updates['/pedidos/' + newPostKey] = object.id;
-            return firebase.database().ref().update(updates);
+        function postData(uid, object) {
+            var postData = factory.entity(object);
+
+            var menuItem = {
+                itemName: [uid],
+                "values": {
+                    name: postData.product,
+                    quantity: postData.quantity,
+                    price: postData.price
+                }
+
+            };
+
+
+            var ref = firebase.database().ref();
+
+            // Get a key for a new Post.
+            var newItem = ref
+                .child('globalMenu')
+                .push(menuItem);
+
+            ref
+                .child('restaurants')
+                .child(uid)
+                .child(newItem.key)
+                .update(menuItem);
         }
+
     }
 
 })(window.angular);

@@ -10,6 +10,7 @@
     function MainController($state) {
         var vm = this;
         vm.continue = function () {
+            var idReference = parseInt(new Date().getDate() / 1000);
             $state.go('track1');
         };
     }

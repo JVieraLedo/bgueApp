@@ -5,9 +5,9 @@
         .controller('Track2Controller', Track2Controller);
 
 
-    Track2Controller.$inject = ['localStorage'];
+    Track2Controller.$inject = [];
 
-    function Track2Controller(localStorage) {
+    function Track2Controller() {
         var vm = this;
         vm.user = {};
 
