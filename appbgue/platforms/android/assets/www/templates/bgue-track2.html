@@ -1,0 +1,51 @@
+﻿
+<header>
+    <h1 class="page-title screen-reader-text">TRACK 2</h1>
+</header>
+
+<div layout="column" layout-padding="" ng-cloak="" class="inputdemoIcons">
+    <md-content layout-gt-sm="row" layout-padding="">
+        <div class="col-xs-12">
+            <md-input-container class="md-icon-float md-block">
+                <label for="name">Nombre</label>
+                <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_person_24px.svg"></md-icon>
+                <input type="text" id="name" ng-model="track2Ctrl.user.name" md-autofocus/>
+            </md-input-container>
+
+            <md-input-container class="md-icon-float md-block">
+                <label for="surname">Apellidos</label>
+                <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_person_24px.svg"></md-icon>
+                <input type="text" id="surname" ng-model="track2Ctrl.user.surname"/>
+            </md-input-container>
+
+            <md-input-container class="md-icon-float md-block">
+                <label for="mail">E-Mail</label>
+                <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_email_24px.svg"></md-icon>
+                <input type="email" id="mail" ng-model="track2Ctrl.user.mail"/>
+            </md-input-container>
+
+            <md-input-container class="md-icon-float md-block">
+                <label for="phone">Teléfono</label>
+                <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_phone_24px.svg"></md-icon>
+                <input type="number" id="phone" ng-model="track2Ctrl.user.phone"/>
+            </md-input-container>
+
+            <md-input-container class="md-icon-float md-block">
+                <label for="address">Dirección</label>
+                <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_place_24px.svg"></md-icon>
+                <input type="text" id="address" ng-model="track2Ctrl.user.address" />
+            </md-input-container>
+
+        </div>
+    </md-content>
+</div>
+
+<footer>
+    <div class="container-fluid">
+        <div class="pull-right btn-footer">
+            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+                <md-button class="md-accent md-raised md-hue-1" ui-sref="home">Finalizar</md-button>
+            </section>
+        </div>
+    </div>
+</footer>
