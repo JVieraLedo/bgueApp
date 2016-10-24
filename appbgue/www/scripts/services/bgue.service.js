@@ -2,7 +2,7 @@
     'use strict';
 
     angular.module('bgue.services').factory('saveData', ['$http', sendData]);
-    angular.module('bgue.services').factory('localStorage', [localStorage]);
+    angular.module('bgue.services').factory('dataService', [dataService]);
 
     /**
      * Service that allows access to sendData when it is ready.
@@ -61,28 +61,26 @@
         return this.sendMail;
     }
 
-    function localStorage() {
-
-        var service = {
-            data: [],
-            dataUser: dataUser,
-            SaveState: SaveState,
-            RestoreState: RestoreState
+    function dataService() {
+        var factory = {};
+        factory.entity = function( object ){
+            return {
+                product: object.product,
+                quantity: object.quantity,
+                price: object.price
+            };
         };
 
-        function dataUser(data) {
-            return service.data.push(data);
-        }
+        return {
+            postData: postData
+        };
 
-        function SaveState() {
-            sessionStorage.userService = angular.toJson(service.data);
+        function postData(object) {
+            var newPostKey = firebase.database().ref().child('pedidos').push().key;
+            var updates = {};
+            updates['/pedidos/' + newPostKey] = object.id;
+            return firebase.database().ref().update(updates);
         }
-
-        function RestoreState() {
-            service.data = angular.fromJson(sessionStorage.userService);
-        }
-
-        return service;
     }
 
 })(window.angular);

@@ -1,20 +1,13 @@
-﻿<md-toolbar layout="row" layout-align="center">
-    <md-button class="menu" hide-gt-sm ng-click="ul.toggleTodo()" aria-label="Show todo groups">
-        <md-icon md-svg-icon="menu"></md-icon>
-    </md-button>
-    <h2> Material Todo App</h2>
-</md-toolbar>
-
-<div flex layout="row" id="mainBody">
-    <md-content class="md-padding">
-        <form ng-submit="track1Ctrl.addTodo()">
-            <div layout layout-align-gt-sm="center center" class="row">
+﻿<div class="row"><img src="images/cabecera.png" class="cabecera"/></div>
+<div class="container -fluid ">
+    <md-content class="md-padding transparent">
+        <form ng-submit="track1Ctrl.addArticle()">
+            <div layout layout-align-gt-sm="center center">
                 <div class="col-xs-4">
                     <md-input-container flex="150">
                         <label>Articulo</label>
-                        <md-select ng-model="track1Ctrl.article">
-                            <md-option><em>Ninguna</em></md-option>
-                            <md-option ng-repeat="art in track1Ctrl.articles" ng-value="art.val" ng-disabled="$index === 1">
+                        <md-select ng-model="track1Ctrl.product">
+                            <md-option ng-repeat="art in track1Ctrl.products" ng-value="art">
                                 {{art.name}}
                             </md-option>
                         </md-select>
@@ -22,39 +15,68 @@
                 </div>
                 <div class="col-xs-4">
                     <md-input-container flex="150">
-                        <label>Articulo</label>
-                        <md-select ng-model="track1Ctrl.article">
-                            <md-option><em>Ninguna</em></md-option>
-                            <md-option ng-repeat="art in track1Ctrl.articles" ng-value="art.val" ng-disabled="$index === 1">
-                                {{art.name}}
+                        <label>Cantidad</label>
+                        <md-select ng-model="track1Ctrl.quantity">
+                            <md-option ng-repeat="quantity in track1Ctrl.quantities" ng-value="quantity">
+                                {{quantity.value}}
                             </md-option>
                         </md-select>
-                    </md-input-container>
-                </div>
-                <div class="col-xs-3">
-                    <md-input-container flex="85">
-                        <label>{{track1Ctrl.price}}</label>
                     </md-input-container>
                 </div>
                 <div class="pull-right">
                     <md-input-container>
-                        <md-button type="submit" class="md-fab md-mini" aria-label="Añadir articulo">
+                        <md-button type="submit" aria-label="Añadir articulo" ng-disabled="!track1Ctrl.product || !track1Ctrl.quantity">
                             <md-icon md-svg-icon="add"></md-icon>
                         </md-button>
                     </md-input-container>
                 </div>
             </div>
         </form>
-
-        <div>
-            <ul>
-                <li ng-repeat="todo in track1Ctrl.todos">
-                    <md-checkbox ng-model="todo.done" aria-label="Todo Checkbox" ng-init="todo.done=false">
-                        {{todo.text}}
-                    </md-checkbox>
-                    <md-divider></md-divider>
-                </li>
-            </ul>
-        </div>
+    </md-content>
+    <div class="col-xs-12" ng-if="track1Ctrl.articles.length > 0">
+        <table width="100%" class="table">
+            <thead class="thead-default">
+            <tr >
+                <th width="30%">
+                    ARTICULO
+                </th>
+                <th width="30%">
+                    CANTIDAD
+                </th>
+                <th width="30%" class="text-right">
+                    PRECIO
+                </th>
+                <th width="10%"></th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="art in track1Ctrl.articles">
+                <td>{{art.product.name}}</td>
+                <td>{{art.quantity.value}}</td>
+                <td class="text-right">{{art.price}}<span class="ml-5">&#8364;</span></td>
+                <td>
+                    <md-button aria-label="Eliminar articulo" ng-click="track1Ctrl.articles.$remove(art)">
+                        <md-icon md-svg-icon="delete"></md-icon>
+                    </md-button>
+                </td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="2" class="text-right"><h4>Total</h4></td>
+                <td colspan="2" class="text-right"><h4>500<span class="ml-5">&#8364;</span></h4></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="text-right"><h4><em>Descuentos</em></h4></td>
+                <td colspan="2" class="text-right"><h4><em>180<span class="ml-5">&#8364;</span></em></h4></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="text-right"><h3><b>PRECIO FINAL</b></h3></td>
+                <td colspan="2" class="text-right"><h3><b>180</b><span class="ml-5">&#8364;</span></h3></td>
+            </tr>
+            </tfoot>
+        </table>
     </div>
-</footer>
+</div>
+
+

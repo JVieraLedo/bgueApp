@@ -14,7 +14,8 @@
                 'ui.router',
                 'bgue.services',
                 'bgue.controllers',
-                'bgue.directives'
+                'bgue.directives',
+                'firebase'
             ]);
     angular
         .module('bgue.directives', []);
