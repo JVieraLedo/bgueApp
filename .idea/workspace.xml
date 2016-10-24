@@ -2,29 +2,350 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b23e704e-ea1a-4c1f-9d33-b19b1746989f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/images/cabecera.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/images/fondo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/data/products.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/icons/add.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/icons/delete.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.constant.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/scripts/frameworks/angularfire.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/scripts/frameworks/firebase.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/scripts/services/bbddrules.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/scripts/services/firebase.connect.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/scripts/services/firebase.data.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/appbgue/www/images/egg5.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/test/test.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/angularfire/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/angularfire/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/angularfire/changelog.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/angularfire/dist/angularfire.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/angularfire/dist/angularfire.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/angularfire/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/angularfire/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/app-node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/app.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/auth-node/auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/auth-node/credential.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/auth-node/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/auth-node/token-generator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/database-node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/database.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/externs/firebase-app-externs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/externs/firebase-auth-externs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/externs/firebase-client-auth-externs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/externs/firebase-database-externs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/externs/firebase-messaging-externs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/externs/firebase-server-auth-externs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/externs/firebase-storage-externs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/firebase-app.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/firebase-auth.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/firebase-browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/firebase-database.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/firebase-messaging.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/firebase-node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/firebase-react-native.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/firebase-storage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/firebase.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/firebase.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/messaging.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/dom-storage/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/dom-storage/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/dom-storage/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/dom-storage/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/dom-storage/tests/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/examples/autobahn_client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/examples/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/examples/haproxy.conf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/examples/proxy_server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/examples/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/examples/sse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/examples/ws.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/lib/faye/eventsource.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/lib/faye/websocket.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/lib/faye/websocket/api.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/lib/faye/websocket/api/event.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/lib/faye/websocket/api/event_target.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/lib/faye/websocket/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/CODE_OF_CONDUCT.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/examples/tcp_server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/base.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/client.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/draft75.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/draft76.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/headers.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi/frame.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/hybi/message.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/proxy.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/server.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/driver/stream_reader.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/http_parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/lib/websocket/streams.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/parser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/cell.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/functor.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/pledge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/pipeline/ring_buffer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/lib/websocket_extensions.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/node_modules/websocket-extensions/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/node_modules/websocket-driver/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/faye-websocket/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/lib/JsonWebTokenError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/lib/NotBeforeError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/lib/TokenExpiredError.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/lib/timespan.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/lib/data-stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/lib/sign-stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/lib/tostring.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/lib/verify-stream.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/.bin/base64url" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/.bin/base64url.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/bin/base64url" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/inherits/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/inherits/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/inherits/inherits.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/inherits/inherits_browser.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/inherits/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/inherits/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/float.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_duplex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/lib/_stream_writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/float.patch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/lib/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/core-util-is/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/build/build.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/component.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/node_modules/string_decoder/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/passthrough.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/readable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/transform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/readable-stream/writable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/typedarray/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/typedarray/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/typedarray/example/tarray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/typedarray/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/typedarray/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/typedarray/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/typedarray/test/server/undef_globals.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/node_modules/typedarray/test/tarray.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/concat-stream/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/.bin/indent-string" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/.bin/indent-string.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/camelcase-keys/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/camelcase-keys/node_modules/camelcase/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/camelcase-keys/node_modules/camelcase/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/camelcase-keys/node_modules/camelcase/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/camelcase-keys/node_modules/camelcase/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/camelcase-keys/node_modules/map-obj/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/camelcase-keys/node_modules/map-obj/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/camelcase-keys/node_modules/map-obj/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/camelcase-keys/node_modules/map-obj/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/camelcase-keys/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/camelcase-keys/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/.bin/repeating" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/.bin/repeating.cmd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/get-stdin/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/get-stdin/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/get-stdin/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/cli.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/node_modules/number-is-nan/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/node_modules/number-is-nan/license" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/node_modules/number-is-nan/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/node_modules/number-is-nan/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/node_modules/is-finite/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/node_modules/repeating/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/indent-string/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/example/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/readme.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/all_bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/dash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/default_bool.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/dotted.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/kv_short.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/long.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/num.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/parse.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/parse_modified.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/short.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/stop_early.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/unknown.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/minimist/test/whitespace.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/object-assign/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/object-assign/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/node_modules/object-assign/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/node_modules/meow/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/base64url/test/base64url.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/buffer-equal-constant-time/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/buffer-equal-constant-time/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/buffer-equal-constant-time/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/buffer-equal-constant-time/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/buffer-equal-constant-time/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/buffer-equal-constant-time/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/buffer-equal-constant-time/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/ecdsa-sig-formatter/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/ecdsa-sig-formatter/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/ecdsa-sig-formatter/node_modules/base64-url/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/ecdsa-sig-formatter/node_modules/base64-url/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/ecdsa-sig-formatter/node_modules/base64-url/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/ecdsa-sig-formatter/node_modules/base64-url/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/ecdsa-sig-formatter/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/ecdsa-sig-formatter/src/ecdsa-sig-formatter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/node_modules/ecdsa-sig-formatter/src/param-bytes-for-alg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/node_modules/jwa/test/jwa.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/readme.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/test/data.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/jws/test/jws.test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/ms/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/ms/History.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/ms/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/ms/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/ms/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/ms/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/xtend/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/xtend/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/xtend/LICENCE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/xtend/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/xtend/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/xtend/immutable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/xtend/mutable.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/xtend/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/node_modules/xtend/test.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/async_sign.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/encoding.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/expiresInSeconds.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/expires_format.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/invalid_exp.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/invalid_pub.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/issue_147.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/issue_70.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/jwt.hs.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/jwt.rs.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/noTimestamp.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/non_object_values.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/priv.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/pub.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/rsa-private.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/rsa-public-key.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/rsa-public-key.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/rsa-public.pem" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/set_headers.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/undefined_secretOrPublickey.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/util/fakeDate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/verify.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/jsonwebtoken/test/wrong_alg.tests.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/dist/rsvp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/dist/rsvp.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp.umd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/-internal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/all-settled.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/asap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/config.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/defer.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/enumerator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/events.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/filter.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/hash-settled.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/hash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/instrument.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/map.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/node.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/platform.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/promise-hash.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/promise.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/promise/all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/promise/race.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/promise/reject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/promise/resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/race.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/reject.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/resolve.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/rethrow.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/then.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/lib/rsvp/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/rsvp/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/xmlhttprequest/.jshintrc" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/xmlhttprequest/.npmignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/xmlhttprequest/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/xmlhttprequest/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/xmlhttprequest/lib/XMLHttpRequest.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/node_modules/xmlhttprequest/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/npm-shrinkwrap.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/package.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/node_modules/firebase/storage.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/package.json" afterPath="$PROJECT_DIR$/appbgue/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/css/index.css" afterPath="$PROJECT_DIR$/appbgue/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/index.html" afterPath="$PROJECT_DIR$/appbgue/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.config.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.router.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html" afterPath="$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html" />
     </list>
     <ignored path="bgueApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,7 +366,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="bgue.service.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bgue.service.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="196">
@@ -59,11 +380,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.controller.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.controller.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,8 +440,8 @@
         <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.constant.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.router.js" />
-        <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js" />
+        <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js" />
       </list>
     </option>
   </component>
@@ -451,7 +772,7 @@
       <workItem from="1476889612211" duration="331000" />
       <workItem from="1476945325615" duration="12834000" />
       <workItem from="1477031932964" duration="13154000" />
-      <workItem from="1477289436260" duration="21631000" />
+      <workItem from="1477289436260" duration="21730000" />
     </task>
     <task id="LOCAL-00001" summary="INIT PROYECT">
       <created>1476889929177</created>
@@ -502,11 +823,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477290300439</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add post data with firebase">
+      <created>1477321942984</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1477321942984</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47950000" />
+    <option name="totallyTimeSpent" value="48049000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -547,7 +875,8 @@
     <MESSAGE value="add imgs and class to views" />
     <MESSAGE value="Changes office" />
     <MESSAGE value="Merge branch 'master' of https://github.com/JVieraLedo/bgueApp&#10;&#10;# Conflicts:&#10;#&#9;appbgue/www/scripts/controllers/main.controller.js&#10;#&#9;appbgue/www/scripts/controllers/track1.controller.js&#10;#&#9;appbgue/www/templates/bgue-track1.html&#10;&#10;RESOLVES MERGES" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/JVieraLedo/bgueApp&#10;&#10;# Conflicts:&#10;#&#9;appbgue/www/scripts/controllers/main.controller.js&#10;#&#9;appbgue/www/scripts/controllers/track1.controller.js&#10;#&#9;appbgue/www/templates/bgue-track1.html&#10;&#10;RESOLVES MERGES" />
+    <MESSAGE value="Add post data with firebase" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add post data with firebase" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -818,14 +1147,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -835,6 +1156,14 @@
             <element signature="e#454#1642#0" expanded="false" />
             <element signature="e#1813#2164#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
