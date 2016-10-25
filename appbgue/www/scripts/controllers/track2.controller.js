@@ -22,7 +22,6 @@
             dataService.clearData();
             $state.go('home');
         };
-
     }
 
 })(window.angular);
