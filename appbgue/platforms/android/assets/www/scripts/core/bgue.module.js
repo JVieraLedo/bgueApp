@@ -15,13 +15,14 @@
                 'bgue.services',
                 'bgue.controllers',
                 'bgue.directives',
-                'firebase'
+                'firebase',
+                'ngStorage'
             ]);
     angular
         .module('bgue.directives', []);
     angular
         .module('bgue.controllers', ['ngMessages']);
     angular
-        .module('bgue.services', ['ngResource']);
+        .module('bgue.services', ['ngResource'])
 
 })(window.angular);

@@ -18,4 +18,5 @@
                 })
                 .accentPalette('green');
         });
+
 })(window.angular);
