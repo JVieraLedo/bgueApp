@@ -61,6 +61,10 @@
             <td colspan="2" class="text-right"><h5><em>Descuentos</em></h5></td>
             <td colspan="2" class="text-right text-danger"><h5><em>- {{track1Ctrl.discount}}<span class="ml-5">&#8364;</span></em></h5></td>
         </tr>
+        <tr ng-if="track1Ctrl.showSendValue">
+            <td colspan="2" class="text-right"><h5><em>Gastos de Envio</em></h5></td>
+            <td colspan="2" class="text-right text-danger"><h5><em>15<span class="ml-5">&#8364;</span></em></h5></td>
+        </tr>
         <tr>
             <td colspan="2" class="text-right"><h4><b>PRECIO FINAL</b></h4></td>
             <td colspan="2" class="text-right text-primary"><h4><b>{{track1Ctrl.total}}</b><span class="ml-5">&#8364;</span></h4></td>
@@ -70,7 +74,7 @@
 </div>
 <div class="row" ng-if="track1Ctrl.articles.length > 0">
     <md-divider></md-divider>
-    <md-radio-group ng-model="track1Ctrl.method">
+    <md-radio-group ng-model="track1Ctrl.method" ng-change="track1Ctrl.sending(track1Ctrl.method)">
         <div ng-repeat='type in track1Ctrl.methodTypes'>
             <div flex layout='row' layout-padding layout-align="start center" class="va-m">
                 <md-radio-button flex style="max-width:50px;"
@@ -92,12 +96,18 @@
 <div class="row">
     <div class="pull-left">
         <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-            <md-button class="md-warn md-raised md-hue-1" ng-click="track1Ctrl.cancel()">Cancelar</md-button>
+            <md-button class="md-warn md-raised md-hue-1" ng-click="track1Ctrl.cancel()">
+                <em>cancelar</em>
+                <md-icon md-svg-icon="logout"></md-icon>
+            </md-button>
         </section>
     </div>
     <div class="pull-right" ng-if="track1Ctrl.method && track1Ctrl.articles.length > 0">
         <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-            <md-button class="md-accent md-raised md-hue-1" ng-click="track1Ctrl.continue()">Continuar</md-button>
+            <md-button class="md-accent md-raised md-hue-1" ng-click="track1Ctrl.continue()">
+                <em>continuar</em>
+                <md-icon md-svg-icon="right"></md-icon>
+            </md-button>
         </section>
     </div>
 </div>

@@ -14,10 +14,11 @@
         vm.method = {};
         var order = {};
         var disabledMethod;
+        vm.showSendValue = false;
 
         var data = dataService.getData();
 
-        if(data.data){
+        if (data.data) {
             vm.articles = data.data.articles;
             vm.totalPrice = data.data.total;
             vm.discount = data.data.discount;
@@ -64,13 +65,29 @@
 
         };
 
+        vm.sending = function (method) {
+            var sendPrice = 15;
+            switch (method.method) {
+                case 'shop':
+                    vm.showSendValue = false;
+                    vm.total = vm.totalPrice - vm.discount;
+                    break;
+                case 'home':
+                    vm.showSendValue = true;
+                    vm.total = vm.totalPrice - vm.discount + sendPrice;
+                    break;
+            }
+        };
+
         vm.continue = function () {
             order.articles = vm.articles;
             order.total = vm.totalPrice;
             order.discount = vm.discount;
             order.price = vm.total;
             order.method = vm.method;
-            $timeout(dataService.updateData(order, 'order'), 100);
+            $timeout(
+                dataService.updateData(order, 'order')
+                , 100);
             $state.go('track2');
         };
 
@@ -87,7 +104,11 @@
         function getTotal() {
             vm.totalPrice = totals();
             vm.discount = discounts();
-            vm.total = vm.totalPrice - vm.discount;
+            var sendPrice = 0;
+            if (vm.showSendValue) {
+                sendPrice = 15;
+            }
+            vm.total = vm.totalPrice - vm.discount + sendPrice;
             disabledMethod = !(vm.total > 50);
             obtainMethods(disabledMethod);
         }
@@ -123,7 +144,6 @@
                 {info: "Recoger en tienda", method: "shop", disabled: false}
             ];
         }
-
 
     }
 

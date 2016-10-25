@@ -33,7 +33,7 @@
         }
 
         function getData() {
-            return JSON.parse(angular.toJson($localStorage));
+            return $localStorage;
         }
 
         function clearData() {

@@ -48,7 +48,7 @@
     }
 
     function run($state) {
-        $state.go('track2');
+        $state.go('home');
     }
 
 })(window.angular);
