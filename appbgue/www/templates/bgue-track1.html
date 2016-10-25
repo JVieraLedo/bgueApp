@@ -1,109 +1,100 @@
 ﻿<div class="row"><img src="images/cabecera.png" class="cabecera"/></div>
-<div class="container -fluid ">
-    <md-content class="md-padding transparent">
-        <form ng-submit="track1Ctrl.addArticle()">
-            <div layout layout-align-gt-sm="center center">
-                <div class="col-xs-4">
-                    <md-input-container flex="150">
-                        <label>Articulo</label>
-                        <md-select ng-model="track1Ctrl.product">
-                            <md-option ng-repeat="art in track1Ctrl.products" ng-value="art">
-                                {{art.name}}
-                            </md-option>
-                        </md-select>
-                    </md-input-container>
+<md-content class="transparent" layout layout-align-gt-sm="row">
+    <form ng-submit="track1Ctrl.addArticle()">
+        <md-input-container flex="150">
+            <label>Articulo</label>
+            <md-select ng-model="track1Ctrl.product">
+                <md-option ng-repeat="art in track1Ctrl.products" ng-value="art">
+                    {{art.name}}
+                </md-option>
+            </md-select>
+        </md-input-container>
+        <md-input-container flex="150">
+            <label>Cantidad</label>
+            <md-select ng-model="track1Ctrl.quantity">
+                <md-option ng-repeat="quantity in track1Ctrl.quantities" ng-value="quantity">
+                    {{quantity.value}}
+                </md-option>
+            </md-select>
+        </md-input-container>
+        <md-input-container>
+            <md-button type="submit" aria-label="Añadir articulo" ng-disabled="!track1Ctrl.product || !track1Ctrl.quantity">
+                <md-icon md-svg-icon="add"></md-icon>
+            </md-button>
+        </md-input-container>
+    </form>
+</md-content>
+<div layout="row" ng-if="track1Ctrl.articles.length > 0">
+    <table class="table">
+        <thead class="thead-default">
+        <tr >
+            <th width="40%">
+                ARTICULO
+            </th>
+            <th width="25%">
+                CANTIDAD
+            </th>
+            <th width="25%" class="text-right">
+                PRECIO
+            </th>
+            <th width="10%"></th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr ng-repeat="art in track1Ctrl.articles">
+            <td>{{art.product.name}}</td>
+            <td>{{art.quantity.value}}</td>
+            <td class="text-right">{{art.price}}<span class="ml-5">&#8364;</span></td>
+            <td>
+                <md-button aria-label="Eliminar articulo" ng-click="track1Ctrl.removeArt($index)" class="md-button-table">
+                    <md-icon md-svg-icon="delete"></md-icon>
+                </md-button>
+            </td>
+        </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="2" class="text-right"><h5>Total</h5></td>
+            <td colspan="2" class="text-right"><h5>{{track1Ctrl.totalPrice}}<span class="ml-5">&#8364;</span></h5></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="text-right"><h5><em>Descuentos</em></h5></td>
+            <td colspan="2" class="text-right text-danger"><h5><em>- {{track1Ctrl.discount}}<span class="ml-5">&#8364;</span></em></h5></td>
+        </tr>
+        <tr>
+            <td colspan="2" class="text-right"><h4><b>PRECIO FINAL</b></h4></td>
+            <td colspan="2" class="text-right text-primary"><h4><b>{{track1Ctrl.total}}</b><span class="ml-5">&#8364;</span></h4></td>
+        </tr>
+        </tfoot>
+    </table>
+</div>
+<div class="row" ng-if="track1Ctrl.articles.length > 0">
+    <md-divider></md-divider>
+    <md-radio-group ng-model="track1Ctrl.method" >
+        <div ng-repeat='type in track1Ctrl.methodTypes'>
+            <div flex layout='row' layout-padding layout-align="start center" class="va-m">
+                <md-radio-button flex style="max-width:50px;"
+                                 aria-label="type.method"
+                                 ng-value="type.method"
+                                 class="md-primary" >
+                </md-radio-button>
+                <div flex style="margin-bottom: 18px">
+                    <em class="text-success">{{type.info}}</em>
                 </div>
-                <div class="col-xs-4">
-                    <md-input-container flex="150">
-                        <label>Cantidad</label>
-                        <md-select ng-model="track1Ctrl.quantity">
-                            <md-option ng-repeat="quantity in track1Ctrl.quantities" ng-value="quantity">
-                                {{quantity.value}}
-                            </md-option>
-                        </md-select>
-                    </md-input-container>
-                </div>
-                <div class="pull-right">
-                    <md-input-container>
-                        <md-button type="submit" aria-label="Añadir articulo" ng-disabled="!track1Ctrl.product || !track1Ctrl.quantity">
-                            <md-icon md-svg-icon="add"></md-icon>
-                        </md-button>
-                    </md-input-container>
-                </div>
+
+
             </div>
-        </form>
-    </md-content>
-    <div class="col-xs-12" ng-if="track1Ctrl.articles.length > 0">
-        <table width="100%" class="table">
-            <thead class="thead-default">
-            <tr >
-                <th width="30%">
-                    ARTICULO
-                </th>
-                <th width="30%">
-                    CANTIDAD
-                </th>
-                <th width="30%" class="text-right">
-                    PRECIO
-                </th>
-                <th width="10%"></th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr ng-repeat="art in track1Ctrl.articles">
-                <td>{{art.product.name}}</td>
-                <td>{{art.quantity.value}}</td>
-                <td class="text-right">{{art.price}}<span class="ml-5">&#8364;</span></td>
-                <td>
-                    <md-button aria-label="Eliminar articulo" ng-click="track1Ctrl.removeArt($index)">
-                        <md-icon md-svg-icon="delete"></md-icon>
-                    </md-button>
-                </td>
-            </tr>
-            </tbody>
-            <tfoot>
-            <tr>
-                <td colspan="2" class="text-right"><h4>Total</h4></td>
-                <td colspan="2" class="text-right"><h4>{{track1Ctrl.totalPrice}}<span class="ml-5">&#8364;</span></h4></td>
-            </tr>
-            <tr>
-                <td colspan="2" class="text-right"><h4><em>Descuentos</em></h4></td>
-                <td colspan="2" class="text-right text-danger"><h4><em>- {{track1Ctrl.discount}}<span class="ml-5">&#8364;</span></em></h4></td>
-            </tr>
-            <tr>
-                <td colspan="2" class="text-right"><h3><b>PRECIO FINAL</b></h3></td>
-                <td colspan="2" class="text-right text-primary"><h3><b>{{track1Ctrl.total}}</b><span class="ml-5">&#8364;</span></h3></td>
-            </tr>
-            </tfoot>
-        </table>
-        <div class="row">
-            <md-divider></md-divider>
-            <md-radio-group ng-model="track1Ctrl.method" >
-                <div ng-repeat='type in track1Ctrl.methodTypes'>
-                    <div flex layout='row' layout-padding layout-align="start center" class="va-m">
-                        <md-radio-button flex style="max-width:50px;"
-                                         aria-label="type.method"
-                                         ng-value="type.method"
-                                         class="md-primary" >
-                        </md-radio-button>
-                        <div flex style="max-width:800px;margin-bottom: 18px">
-                            {{type.info}}
-                        </div>
-
-
-                    </div>
-                </div>
-            </md-radio-group>
         </div>
-        <md-divider></md-divider>
-        <div class="row" ng-if="track1Ctrl.method">
-            <div class="pull-right">
-                <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                    <md-button class="md-accent md-raised md-hue-1" ng-click="track1Ctrl.continue()">Continuar</md-button>
-                </section>
-            </div>
+    </md-radio-group>
+    <md-divider></md-divider>
+    <div ng-if="track1Ctrl.method">
+        <div class="pull-right">
+            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+                <md-button class="md-accent md-raised md-hue-1" ng-click="track1Ctrl.continue()">Continuar</md-button>
+            </section>
         </div>
     </div>
 </div>
+
 
 
