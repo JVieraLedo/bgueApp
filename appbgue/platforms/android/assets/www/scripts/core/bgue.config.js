@@ -1,20 +1,20 @@
 (function (angular) {
     'use strict';
     angular.module('bgue')
-        .config(function ($mdThemingProvider) {
-            $mdThemingProvider.theme('card')
-                .backgroundPalette('green', {
-                    'default': '600'
-                })
-                .dark();
+        .config(function ($mdThemingProvider, $mdIconProvider) {
+
+            $mdIconProvider
+                .defaultIconSet("assets/svg/avatars.svg", 128)
+                .icon("add", "icons/add.svg", 48)
+                .icon("delete", "icons/delete.svg", 48);
+
             $mdThemingProvider
                 .theme('bgueTheme')
-                .primaryPalette('light-green', {
-                    'default': '500',
-                    'hue-2': '800'
+                .primaryPalette('green', {
+                    'default': '900'
                 })
-                .backgroundPalette('green', {
-                    'default': '50'
+                .backgroundPalette('amber', {
+                    'default': '100'
                 })
                 .accentPalette('green');
         });

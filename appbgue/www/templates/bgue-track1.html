@@ -1,5 +1,5 @@
 ﻿<div class="row"><img src="images/cabecera.png" class="cabecera"/></div>
-<md-content class="transparent" layout layout-align-gt-sm="row">
+<md-content class="transparent" layout layout-align-gt-xs="row">
     <form ng-submit="track1Ctrl.addArticle()">
         <md-input-container flex="150">
             <label>Articulo</label>
@@ -18,7 +18,7 @@
             </md-select>
         </md-input-container>
         <md-input-container>
-            <md-button type="submit" aria-label="Añadir articulo" ng-disabled="!track1Ctrl.product || !track1Ctrl.quantity">
+            <md-button type="submit" aria-label="Añadir articulo" ng-disabled="!track1Ctrl.product || !track1Ctrl.quantity" class="md-button-table">
                 <md-icon md-svg-icon="add"></md-icon>
             </md-button>
         </md-input-container>
@@ -45,7 +45,7 @@
             <td>{{art.product.name}}</td>
             <td>{{art.quantity.value}}</td>
             <td class="text-right">{{art.price}}<span class="ml-5">&#8364;</span></td>
-            <td>
+            <td class="text-right">
                 <md-button aria-label="Eliminar articulo" ng-click="track1Ctrl.removeArt($index)" class="md-button-table">
                     <md-icon md-svg-icon="delete"></md-icon>
                 </md-button>
@@ -70,12 +70,13 @@
 </div>
 <div class="row" ng-if="track1Ctrl.articles.length > 0">
     <md-divider></md-divider>
-    <md-radio-group ng-model="track1Ctrl.method" >
+    <md-radio-group ng-model="track1Ctrl.method">
         <div ng-repeat='type in track1Ctrl.methodTypes'>
             <div flex layout='row' layout-padding layout-align="start center" class="va-m">
                 <md-radio-button flex style="max-width:50px;"
                                  aria-label="type.method"
-                                 ng-value="type.method"
+                                 ng-value="type"
+                                 ng-disabled="type.disabled"
                                  class="md-primary" >
                 </md-radio-button>
                 <div flex style="margin-bottom: 18px">
@@ -86,13 +87,18 @@
             </div>
         </div>
     </md-radio-group>
-    <md-divider></md-divider>
-    <div ng-if="track1Ctrl.method">
-        <div class="pull-right">
-            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                <md-button class="md-accent md-raised md-hue-1" ng-click="track1Ctrl.continue()">Continuar</md-button>
-            </section>
-        </div>
+</div>
+<md-divider></md-divider>
+<div class="row">
+    <div class="pull-left">
+        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+            <md-button class="md-warn md-raised md-hue-1" ng-click="track1Ctrl.cancel()">Cancelar</md-button>
+        </section>
+    </div>
+    <div class="pull-right" ng-if="track1Ctrl.method && track1Ctrl.articles.length > 0">
+        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+            <md-button class="md-accent md-raised md-hue-1" ng-click="track1Ctrl.continue()">Continuar</md-button>
+        </section>
     </div>
 </div>
 

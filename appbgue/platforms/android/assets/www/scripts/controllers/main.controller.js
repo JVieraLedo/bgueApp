@@ -5,13 +5,14 @@
         .controller('MainController', MainController);
 
 
-    MainController.$inject = [];
+    MainController.$inject = ['$state'];
 
-    function MainController() {
+    function MainController($state) {
         var vm = this;
-
-        vm.hello = 'HOLAAA';
-
+        vm.continue = function () {
+            var idReference = parseInt(new Date().getDate() / 1000);
+            $state.go('track1');
+        };
     }
 
 })(window.angular);

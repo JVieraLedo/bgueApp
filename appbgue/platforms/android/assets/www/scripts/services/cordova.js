@@ -19,7 +19,6 @@
 		document.addEventListener('deviceready', function () {
 			resolved = true;
 			deferred.resolve($window.cordova);
-			console.log('deviceready fired');
 		}, false);
 
 		// If the 'deviceready' event didn't fire after a delay, continue.

@@ -11,6 +11,11 @@
         var vm = this;
         vm.user = {};
 
+        vm.finish = function () {
+            localStorage.dataUser({dataUser: vm.user});
+            localStorage.SaveState();
+        };
+
     }
 
 })(window.angular);
