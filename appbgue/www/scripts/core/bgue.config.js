@@ -10,7 +10,8 @@
                 .icon("left", "icons/left-arrow.svg", 48)
                 .icon("logout", "icons/logout.svg", 48)
                 .icon("send", "icons/paper-plane.svg", 48)
-                .icon("right", "icons/right-arrow.svg", 48);
+                .icon("right", "icons/right-arrow.svg", 48)
+                .icon("eye", "icons/visible.svg", 48);
 
             $mdThemingProvider
                 .theme('bgueTheme')

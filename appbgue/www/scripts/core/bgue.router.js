@@ -44,11 +44,20 @@
                         controllerAs: 'track2Ctrl'
                     }
                 }
+            })
+            .state('end', {
+                views: {
+                    "container": {
+                        templateUrl: 'templates/bgue-end.html',
+                        controller: 'EndController',
+                        controllerAs: 'endCtrl'
+                    }
+                }
             });
     }
 
     function run($state) {
-        $state.go('home');
+        $state.go('end');
     }
 
 })(window.angular);

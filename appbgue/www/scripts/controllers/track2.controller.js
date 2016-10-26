@@ -16,6 +16,7 @@
         vm.finish = function () {
             vm.data.user = vm.user;
             $timeout(dataService.updateData(vm.data), 100);
+            $state.go('home');
         };
 
         vm.cancel = function () {

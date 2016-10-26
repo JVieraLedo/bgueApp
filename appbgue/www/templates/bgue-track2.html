@@ -1,59 +1,116 @@
 ﻿<div class="row"><img src="images/cabecera.png" class="cabecera"/></div>
-<div layout="column" layout-padding="" ng-cloak="">
-    <md-content layout-gt-sm="row" layout-padding="" class="transparent">
-        <div class="col-xs-12">
-            <md-input-container class="md-icon-float md-block">
-                <label for="name">Alias</label>
-                <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_person_24px.svg"></md-icon>
-                <input type="text" id="name" ng-model="track2Ctrl.user.name" md-autofocus/>
-            </md-input-container>
+<form name="userForm" ng-submit="track2Ctrl.finish()">
+    <md-content class="bk-form">
+        <div>
+            <div layout-gt-xs="row">
+                <md-input-container class="md-block">
+                    <label>Alias</label>
+                    <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_person_24px.svg"
+                             class="name"></md-icon>
+                    <input required name="clientName" ng-model="track2Ctrl.user.alias"/>
+                    <div ng-messages="userForm.clientName.$error">
+                        <div ng-message="required">Campo obligatorio.</div>
+                    </div>
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Email</label>
+                    <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_email_24px.svg"
+                             class="name"></md-icon>
+                    <input required type="email" name="clientEmail" ng-model="track2Ctrl.user.clientEmail"
+                           minlength="10" maxlength="100" ng-pattern="/^.+@.+\..+$/"/>
 
-            <md-input-container class="md-icon-float md-block">
-                <label for="mail">E-Mail</label>
-                <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_email_24px.svg"></md-icon>
-                <input type="email" id="mail" ng-model="track2Ctrl.user.mail"/>
-            </md-input-container>
-
-            <md-input-container class="md-icon-float md-block">
-                <label for="phone">Teléfono</label>
-                <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_phone_24px.svg"></md-icon>
-                <input type="number" id="phone" ng-model="track2Ctrl.user.phone"/>
-            </md-input-container>
-
-            <md-input-container class="md-icon-float md-block">
-                <label for="address">Dirección</label>
-                <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_place_24px.svg"></md-icon>
-                <input type="text" id="address" ng-model="track2Ctrl.user.address" />
-            </md-input-container>
-
+                    <div ng-messages="userForm.clientEmail.$error" role="alert">
+                        <div ng-message-exp="['required', 'minlength', 'maxlength', 'pattern']">
+                            Tu email debe tener al menos 10 caracteres, y formato mail.
+                        </div>
+                    </div>
+                </md-input-container>
+            </div>
+            <div layout-gt-xs="row">
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Dirección</label>
+                    <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_place_24px.svg"
+                             class="name"></md-icon>
+                    <input required name="address1" ng-model="track2Ctrl.user.address">
+                    <div ng-messages="userForm.address1.$error">
+                        <div ng-message="required">Campo obligatorio.</div>
+                    </div>
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Ampliar Dirección</label>
+                    <input name="address2" ng-model="track2Ctrl.user.addressAmp">
+                </md-input-container>
+            </div>
+            <div layout-gt-xs="row">
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Población</label>
+                    <input required name="poblation" ng-model="track2Ctrl.user.poblation">
+                    <div ng-messages="userForm.poblation.$error">
+                        <div ng-message="required">Campo obligatorio.</div>
+                    </div>
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Ciudad</label>
+                    <input required name="city" ng-model="track2Ctrl.user.city">
+                    <div ng-messages="userForm.city.$error">
+                        <div ng-message="required">Campo obligatorio.</div>
+                    </div>
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Codigo Postal</label>
+                    <input required name="cp" ng-model="track2Ctrl.user.cp">
+                    <div ng-messages="userForm.cp.$error">
+                        <div ng-message="required">Campo obligatorio.</div>
+                    </div>
+                </md-input-container>
+            </div>
+            <div layout-gt-xs="row">
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Telefono de contacto</label>
+                    <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_phone_24px.svg"
+                             class="name"></md-icon>
+                    <input name="phone" ng-model="track2Ctrl.user.phone"
+                           ng-pattern="/^[0-9]{3} [0-9]{2} [0-9]{2} [0-9]{2}$/"/>
+                    <div class="hint" ng-show="showHints">### ## ## ##</div>
+                    <div ng-messages="userForm.phone.$error" ng-hide="showHints">
+                        <div ng-message="pattern">### ## ## ## - Introduzca un número válido.</div>
+                    </div>
+                </md-input-container>
+            </div>
         </div>
     </md-content>
-</div>
 
-<md-divider></md-divider>
-<div class="row">
-    <div class="pull-left">
-        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-            <md-button class="md-warn md-raised md-hue-1" ng-click="track2Ctrl.cancel()">
-                <em>cancelar</em>
-                <md-icon md-svg-icon="logout"></md-icon>
-            </md-button>
-        </section>
+    <md-divider></md-divider>
+    <div class="row">
+        <div class="pull-left">
+            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+                <md-button class="md-warn md-raised md-hue-1" ng-click="track2Ctrl.cancel()">
+                    <em>cancelar</em>
+                    <md-icon md-svg-icon="logout"></md-icon>
+                </md-button>
+            </section>
+        </div>
+        <div class="pull-left">
+            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+                <md-button class="md-warn md-raised md-hue-1" ui-sref="track1">
+                    <md-icon md-svg-icon="left"></md-icon>
+                    <em>volver</em>
+                </md-button>
+            </section>
+        </div>
+        <div class="pull-right">
+            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
+                <md-button
+                        type="submit"
+                        id="registerUser"
+                        value="order"
+                        class="md-accent md-raised md-hue-1"
+                        aria-label="userData"
+                        ng-disabled="userData.userForm.$invalid()">
+                    <em>ver pedido</em>
+                    <md-icon md-svg-icon="eye"></md-icon>
+                </md-button>
+            </section>
+        </div>
     </div>
-    <div class="pull-left">
-        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-            <md-button class="md-warn md-raised md-hue-1" ui-sref="track1">
-                <md-icon md-svg-icon="left"></md-icon>
-                <em>volver</em>
-            </md-button>
-        </section>
-    </div>
-    <div class="pull-right">
-        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-            <md-button class="md-accent md-raised md-hue-1" ui-sref="home" ng-click="track2Ctrl.finish()" ng-disabled="true">
-                <em>finalizar</em>
-                <md-icon md-svg-icon="send"></md-icon>
-            </md-button>
-        </section>
-    </div>
-</div>
+</form>
