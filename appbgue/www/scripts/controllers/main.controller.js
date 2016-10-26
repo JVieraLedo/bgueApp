@@ -5,12 +5,11 @@
         .controller('MainController', MainController);
 
 
-    MainController.$inject = ['$state'];
+    MainController.$inject = ['$state', 'dataService'];
 
-    function MainController($state) {
+    function MainController($state, dataService) {
         var vm = this;
         vm.continue = function () {
-            var idReference = parseInt(new Date().getDate() / 1000);
             $state.go('track1');
         };
     }
