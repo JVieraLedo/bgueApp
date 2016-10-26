@@ -35,17 +35,19 @@
                     function () {
                         dataService.showAlert('confirm');
                         $timeout(
-                            function(){
+                            function () {
+                                $mdDialog.hide();
                                 dataService.sendData(database, data);
-                                dataService.clearData();
-                                $state.go('home');
+                                //dataService.clearData();
+                                //$state.go('home');
                             }, 1000
                         );
                     },
                     function () {
                         dataService.showAlert('cancel');
                         $timeout(
-                            function(){
+                            function () {
+                                $mdDialog.hide();
                                 dataService.clearData();
                                 $state.go('home');
                             }, 1000

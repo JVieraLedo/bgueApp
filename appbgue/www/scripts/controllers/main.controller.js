@@ -9,6 +9,10 @@
 
     function MainController($state, dataService) {
         var vm = this;
+        var data = dataService.getData();
+        if(data.data){
+            dataService.clearData();
+        }
         vm.continue = function () {
             $state.go('track1');
         };

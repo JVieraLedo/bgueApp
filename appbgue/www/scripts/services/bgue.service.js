@@ -15,12 +15,17 @@
                 total: object.total,
                 discount: object.discount,
                 price: object.price,
-                method: object.method,
-                user: object.user
+                method: object.method
             };
         };
 
         factory.entityUserData = function (object) {
+            if(!object.addressAmp){
+                object.addressAmp = 'SIN DATOS';
+            }
+            if(!object.phone){
+                object.phone = 'SIN DATOS';
+            }
             return {
                 direccion: object.address,
                 direccion_ampliada: object.addressAmp,
@@ -31,15 +36,13 @@
                 poblacion: object.poblation
             };
         };
-
         factory.entityOrderData = function (object) {
-            return {
-                articles: object.articles,
-                discount: object.discount,
-                method: object.method,
-                price: object.price,
-                total: object.total
-            };
+            var products = {};
+            products.total = object.total;
+            products.discount = object.discount;
+            products.price = object.price;
+            products.method = object.method.method;
+            return products;
         };
 
         return {
@@ -65,15 +68,11 @@
         }
 
         function sendData(bbdd, data) {
-            bbdd
-                .ref('orders/' + data.id).set(getOrder(data));
-        }
-
-        function getOrder(data){
-            return {
-                usuario: this.entityUserData(data.user),
-                pedido: this.entityOrderData(data.data)
-            }
+            bbdd.ref('orders/' + data.id).set({
+                usuario: factory.entityUserData(data.user),
+                precios: factory.entityOrderData(data.data)
+            });
+            bbdd.ref('orders/' + data.id + '/articulos').set(data.data.articles);
         }
 
 
