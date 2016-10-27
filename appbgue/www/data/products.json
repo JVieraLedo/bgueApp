@@ -1,18 +1,24 @@
-[
-  {
-    "name": "100 huevos",
-    "val": 20
-  },
-  {
-    "name": "200 huevos",
-    "val": 40
-  },
-  {
-    "name": "300 huevos",
-    "val": 60
-  },
-  {
-    "name": "400 huevos",
-    "val": 80
+{
+  "productos" : {
+    "0" : {
+      "product" : "400 huevos",
+      "quantity" : "2 Und."
+    },
+    "1" : {
+      "product" : "400 huevos",
+      "quantity" : "2 Und."
+    },
+    "2" : {
+      "product" : "400 huevos",
+      "quantity" : "2 Und."
+    },
+    "3" : {
+      "product" : "400 huevos",
+      "quantity" : "2 Und."
+    },
+    "4" : {
+      "product" : "400 huevos",
+      "quantity" : "2 Und."
+    }
   }
-]
+}

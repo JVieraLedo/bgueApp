@@ -83,34 +83,28 @@
     <md-divider></md-divider>
     <div class="row">
         <div class="pull-left">
-            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                <md-button class="md-warn md-raised md-hue-1" ng-click="track2Ctrl.cancel()">
-                    <em>cancelar</em>
-                    <md-icon md-svg-icon="logout"></md-icon>
-                </md-button>
-            </section>
+            <md-button class="md-warn md-raised md-hue-1" ng-click="track2Ctrl.cancel()">
+                <em hide-xs>cancelar</em>
+                <md-icon md-svg-icon="logout"></md-icon>
+            </md-button>
         </div>
         <div class="pull-left">
-            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                <md-button class="md-warn md-raised md-hue-1" ui-sref="track1">
-                    <md-icon md-svg-icon="left"></md-icon>
-                    <em>volver</em>
-                </md-button>
-            </section>
+            <md-button class="md-warn md-raised md-hue-1" ui-sref="track1">
+                <md-icon md-svg-icon="left"></md-icon>
+                <em hide-xs>volver</em>
+            </md-button>
         </div>
         <div class="pull-right">
-            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                <md-button
-                        type="submit"
-                        id="registerUser"
-                        value="order"
-                        class="md-accent md-raised md-hue-1"
-                        aria-label="userData"
-                        ng-disabled="userData.userForm.$invalid()">
-                    <em>ver pedido</em>
-                    <md-icon md-svg-icon="eye"></md-icon>
-                </md-button>
-            </section>
+            <md-button
+                    type="submit"
+                    id="registerUser"
+                    value="order"
+                    class="md-accent md-raised md-hue-1"
+                    aria-label="userData"
+                    ng-disabled="userData.userForm.$invalid()">
+                <em hide-xs>ver pedido</em>
+                <md-icon md-svg-icon="eye"></md-icon>
+            </md-button>
         </div>
     </div>
 </form>

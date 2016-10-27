@@ -1,33 +1,36 @@
 ﻿<div class="row"><img src="images/cabecera.png" class="cabecera"/></div>
-<md-content class="transparent" layout layout-align-gt-xs="row">
-    <form ng-submit="track1Ctrl.addArticle()">
-        <md-input-container flex="150">
-            <label>Articulo</label>
-            <md-select ng-model="track1Ctrl.product">
-                <md-option ng-repeat="art in track1Ctrl.products" ng-value="art">
-                    {{art.name}}
-                </md-option>
-            </md-select>
-        </md-input-container>
-        <md-input-container flex="150">
-            <label>Cantidad</label>
-            <md-select ng-model="track1Ctrl.quantity">
-                <md-option ng-repeat="quantity in track1Ctrl.quantities" ng-value="quantity">
-                    {{quantity.value}}
-                </md-option>
-            </md-select>
-        </md-input-container>
-        <md-input-container>
-            <md-button type="submit" aria-label="Añadir articulo" ng-disabled="!track1Ctrl.product || !track1Ctrl.quantity" class="md-button-table">
+<form ng-submit="track1Ctrl.addArticle()">
+    <md-content class="transparent">
+        <div layout="row">
+            <md-input-container class="md-block" flex-gt-xs flex="600">
+                <label>Articulo</label>
+                <md-select ng-model="track1Ctrl.product">
+                    <md-option ng-repeat="art in track1Ctrl.products" ng-value="art">
+                        {{art.name}}
+                    </md-option>
+                </md-select>
+            </md-input-container>
+            <md-input-container class="md-block" flex-gt-xs flex="300">
+                <label>Cantidad</label>
+                <md-select ng-model="track1Ctrl.quantity">
+                    <md-option ng-repeat="quantity in track1Ctrl.quantities" ng-value="quantity">
+                        {{quantity.value}}
+                    </md-option>
+                </md-select>
+            </md-input-container>
+            <md-button type="submit" aria-label="Añadir articulo"
+                       ng-disabled="!track1Ctrl.product || !track1Ctrl.quantity"
+                       class="md-button-table">
                 <md-icon md-svg-icon="add"></md-icon>
             </md-button>
-        </md-input-container>
-    </form>
-</md-content>
-<div layout="row" ng-if="track1Ctrl.articles.length > 0">
+        </div>
+    </md-content>
+</form>
+
+<div class="row" ng-if="track1Ctrl.articles.length > 0">
     <table class="table">
         <thead class="thead-default">
-        <tr >
+        <tr>
             <th width="40%">
                 ARTICULO
             </th>
@@ -46,7 +49,8 @@
             <td>{{art.quantity.value}}</td>
             <td class="text-right">{{art.price}}<span class="ml-5">&#8364;</span></td>
             <td class="text-right">
-                <md-button aria-label="Eliminar articulo" ng-click="track1Ctrl.removeArt($index)" class="md-button-table">
+                <md-button aria-label="Eliminar articulo" ng-click="track1Ctrl.removeArt($index)"
+                           class="md-button-table">
                     <md-icon md-svg-icon="delete"></md-icon>
                 </md-button>
             </td>
@@ -59,7 +63,8 @@
         </tr>
         <tr>
             <td colspan="2" class="text-right"><h5><em>Descuentos</em></h5></td>
-            <td colspan="2" class="text-right text-danger"><h5><em>- {{track1Ctrl.discount}}<span class="ml-5">&#8364;</span></em></h5></td>
+            <td colspan="2" class="text-right text-danger"><h5><em>- {{track1Ctrl.discount}}<span
+                    class="ml-5">&#8364;</span></em></h5></td>
         </tr>
         <tr ng-if="track1Ctrl.showSendValue">
             <td colspan="2" class="text-right"><h5><em>Gastos de Envio</em></h5></td>
@@ -67,7 +72,8 @@
         </tr>
         <tr>
             <td colspan="2" class="text-right"><h4><b>PRECIO FINAL</b></h4></td>
-            <td colspan="2" class="text-right text-primary"><h4><b>{{track1Ctrl.total}}</b><span class="ml-5">&#8364;</span></h4></td>
+            <td colspan="2" class="text-right text-primary"><h4><b>{{track1Ctrl.total}}</b><span
+                    class="ml-5">&#8364;</span></h4></td>
         </tr>
         </tfoot>
     </table>
@@ -81,7 +87,7 @@
                                  aria-label="type.method"
                                  ng-value="type"
                                  ng-disabled="type.disabled"
-                                 class="md-primary" >
+                                 class="md-primary">
                 </md-radio-button>
                 <div flex style="margin-bottom: 18px">
                     <em class="text-success">{{type.info}}</em>
@@ -95,20 +101,16 @@
 <md-divider></md-divider>
 <div class="row">
     <div class="pull-left">
-        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-            <md-button class="md-warn md-raised md-hue-1" ng-click="track1Ctrl.cancel()">
-                <em>cancelar</em>
-                <md-icon md-svg-icon="logout"></md-icon>
-            </md-button>
-        </section>
+        <md-button class="md-warn md-raised md-hue-1" ng-click="track1Ctrl.cancel()">
+            <em hide-xs>cancelar</em>
+            <md-icon md-svg-icon="logout"></md-icon>
+        </md-button>
     </div>
     <div class="pull-right" ng-if="track1Ctrl.method && track1Ctrl.articles.length > 0">
-        <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-            <md-button class="md-accent md-raised md-hue-1" ng-click="track1Ctrl.continue()">
-                <em>continuar</em>
-                <md-icon md-svg-icon="right"></md-icon>
-            </md-button>
-        </section>
+        <md-button class="md-accent md-raised md-hue-1" ng-click="track1Ctrl.continue()">
+            <em hide-xs>continuar</em>
+            <md-icon md-svg-icon="right"></md-icon>
+        </md-button>
     </div>
 </div>
 
