@@ -88,7 +88,7 @@
                 <td colspan="2" class="text-right"><h5><em>Descuentos</em></h5></td>
                 <td colspan="2" class="text-right text-danger"><h5><em>- {{endCtrl.discount}}<span class="ml-5">&#8364;</span></em></h5></td>
             </tr>
-            <tr ng-if="endCtrl.showSendValue">
+            <tr ng-if="endCtrl.method.method == 'home'">
                 <td colspan="2" class="text-right"><h5><em>Gastos de Envio</em></h5></td>
                 <td colspan="2" class="text-right text-danger"><h5><em>15<span class="ml-5">&#8364;</span></em></h5></td>
             </tr>
