@@ -1,17 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b23e704e-ea1a-4c1f-9d33-b19b1746989f" name="Default" comment="Add post data with firebase">
+    <list default="true" id="b23e704e-ea1a-4c1f-9d33-b19b1746989f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/css/index.css" afterPath="$PROJECT_DIR$/appbgue/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/index.html" afterPath="$PROJECT_DIR$/appbgue/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/controllers/track2.controller.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/controllers/track2.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.config.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html" afterPath="$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/templates/bgue-track2.html" afterPath="$PROJECT_DIR$/appbgue/www/templates/bgue-track2.html" />
     </list>
     <ignored path="bgueApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -441,7 +432,7 @@
       <workItem from="1476945325615" duration="12834000" />
       <workItem from="1477031932964" duration="13154000" />
       <workItem from="1477289436260" duration="21730000" />
-      <workItem from="1477327410590" duration="6722000" />
+      <workItem from="1477327410590" duration="7001000" />
     </task>
     <task id="LOCAL-00001" summary="INIT PROYECT">
       <created>1476889929177</created>
@@ -499,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477321942984</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="complete controllers">
+      <created>1477345091229</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1477345091229</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54771000" />
+    <option name="totallyTimeSpent" value="55050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
@@ -545,7 +543,8 @@
     <MESSAGE value="Changes office" />
     <MESSAGE value="Merge branch 'master' of https://github.com/JVieraLedo/bgueApp&#10;&#10;# Conflicts:&#10;#&#9;appbgue/www/scripts/controllers/main.controller.js&#10;#&#9;appbgue/www/scripts/controllers/track1.controller.js&#10;#&#9;appbgue/www/templates/bgue-track1.html&#10;&#10;RESOLVES MERGES" />
     <MESSAGE value="Add post data with firebase" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add post data with firebase" />
+    <MESSAGE value="complete controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete controllers" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
