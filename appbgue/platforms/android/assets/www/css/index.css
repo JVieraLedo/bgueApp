@@ -87,6 +87,10 @@ md-checkbox.md-checked.green .md-icon {
     background-color: transparent !important;
 }
 
+.bk-form {
+    background-color: rgba(244, 209, 108, 0.29) !important;
+}
+
 .fixed-b{
     position:fixed;
     height:50px;
@@ -98,4 +102,15 @@ md-checkbox.md-checked.green .md-icon {
 
 .md-button-table {
     min-width: 30px !important;
+}
+
+.pt-xs{
+    padding-top: 10px;
+}
+
+.pl-sm{
+    padding-left: 50px;
+}
+.p-sm{
+    padding: 50px !important;
 }

@@ -102,28 +102,22 @@
     <md-divider></md-divider>
     <div class="row">
         <div class="pull-left">
-            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                <md-button class="md-warn md-raised md-hue-1" ng-click="endCtrl.cancel()">
-                    <em>cancelar</em>
-                    <md-icon md-svg-icon="logout"></md-icon>
-                </md-button>
-            </section>
+            <md-button class="md-warn md-raised md-hue-1" ng-click="endCtrl.cancel()">
+                <em hide-xs>cancelar</em>
+                <md-icon md-svg-icon="logout"></md-icon>
+            </md-button>
         </div>
         <div class="pull-left">
-            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                <md-button class="md-warn md-raised md-hue-1" ui-sref="track1">
-                    <md-icon md-svg-icon="left"></md-icon>
-                    <em>volver</em>
-                </md-button>
-            </section>
+            <md-button class="md-warn md-raised md-hue-1" ui-sref="track1">
+                <md-icon md-svg-icon="left"></md-icon>
+                <em hide-xs>volver</em>
+            </md-button>
         </div>
         <div class="pull-right">
-            <section layout="row" layout-sm="column" layout-align="center center" layout-wrap>
-                <md-button class="md-accent md-raised md-hue-1" ng-click="endCtrl.showConfirm($event)">
-                    <em>enviar pedido</em>
-                    <md-icon md-svg-icon="send"></md-icon>
-                </md-button>
-            </section>
+            <md-button class="md-accent md-raised md-hue-1" ng-click="endCtrl.showConfirm($event)">
+                <em hide-xs>enviar pedido</em>
+                <md-icon md-svg-icon="send"></md-icon>
+            </md-button>
         </div>
     </div>
 </div>
