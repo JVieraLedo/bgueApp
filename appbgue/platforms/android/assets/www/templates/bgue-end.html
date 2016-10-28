@@ -1,0 +1,123 @@
+<div id="endTrack">
+    <div class="row"><img src="images/cabecera.png" class="cabecera"/></div>
+    <md-content class="transparent">
+        <div>
+            <div layout-gt-xs="row">
+                <h2><em class="text-success">Resumen del pedido</em></h2>
+            </div>
+            <div layout-gt-xs="row">
+                <md-input-container class="md-block">
+                    <label>Alias</label>
+                    <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_person_24px.svg"
+                             class="name"></md-icon>
+                    <input name="clientName" ng-model="endCtrl.user.alias" disabled/>
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Email</label>
+                    <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_email_24px.svg"
+                             class="name"></md-icon>
+                    <input type="email" name="clientEmail" ng-model="endCtrl.user.clientEmail" disabled/>
+                </md-input-container>
+            </div>
+            <div layout-gt-xs="row">
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Dirección</label>
+                    <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_place_24px.svg"
+                             class="name"></md-icon>
+                    <input name="address1" ng-model="endCtrl.user.address" disabled/>
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs ng-if="endCtrl.user.addressAmp">
+                    <label>Ampliar Dirección</label>
+                    <input name="address2" ng-model="endCtrl.user.addressAmp" disabled/>
+                </md-input-container>
+            </div>
+            <div layout-gt-xs="row">
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Población</label>
+                    <input name="poblation" ng-model="endCtrl.user.poblation" disabled/>
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Ciudad</label>
+                    <input name="city" ng-model="endCtrl.user.city" disabled/>
+                </md-input-container>
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Codigo Postal</label>
+                    <input name="cp" ng-model="endCtrl.user.cp" disabled/>
+                </md-input-container>
+            </div>
+            <div layout-gt-xs="row" ng-if="endCtrl.user.phone">
+                <md-input-container class="md-block" flex-gt-xs>
+                    <label>Telefono de contacto</label>
+                    <md-icon md-svg-src="scripts/frameworks/angular-material/img/icons/ic_phone_24px.svg"
+                             class="name"></md-icon>
+                    <input name="phone" ng-model="endCtrl.user.phone" disabled/>
+
+                </md-input-container>
+            </div>
+        </div>
+    </md-content>
+    <md-divider></md-divider>
+    <div layout="row" ng-if="endCtrl.articles.length > 0">
+        <table class="table">
+            <thead class="thead-default">
+            <tr >
+                <th width="40%">
+                    ARTICULO
+                </th>
+                <th width="25%">
+                    CANTIDAD
+                </th>
+                <th width="25%" class="text-right">
+                    PRECIO
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="art in endCtrl.articles">
+                <td>{{art.product.name}}</td>
+                <td>{{art.quantity.value}}</td>
+                <td class="text-right">{{art.price}}<span class="ml-5">&#8364;</span></td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="2" class="text-right"><h5>Total</h5></td>
+                <td colspan="2" class="text-right"><h5>{{endCtrl.totalPrice}}<span class="ml-5">&#8364;</span></h5></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="text-right"><h5><em>Descuentos</em></h5></td>
+                <td colspan="2" class="text-right text-danger"><h5><em>- {{endCtrl.discount}}<span class="ml-5">&#8364;</span></em></h5></td>
+            </tr>
+            <tr ng-if="endCtrl.method.method == 'home'">
+                <td colspan="2" class="text-right"><h5><em>Gastos de Envio</em></h5></td>
+                <td colspan="2" class="text-right text-danger"><h5><em>15<span class="ml-5">&#8364;</span></em></h5></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="text-right"><h4><b>PRECIO FINAL</b></h4></td>
+                <td colspan="2" class="text-right text-primary"><h4><b>{{endCtrl.total}}</b><span class="ml-5">&#8364;</span></h4></td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+    <md-divider></md-divider>
+    <div class="row">
+        <div class="pull-left">
+            <md-button class="md-warn md-raised md-hue-1" ng-click="endCtrl.cancel()">
+                <em hide-xs>cancelar</em>
+                <md-icon md-svg-icon="logout"></md-icon>
+            </md-button>
+        </div>
+        <div class="pull-left">
+            <md-button class="md-warn md-raised md-hue-1" ui-sref="track1">
+                <md-icon md-svg-icon="left"></md-icon>
+                <em hide-xs>volver</em>
+            </md-button>
+        </div>
+        <div class="pull-right">
+            <md-button class="md-accent md-raised md-hue-1" ng-click="endCtrl.showConfirm($event)">
+                <em hide-xs>enviar pedido</em>
+                <md-icon md-svg-icon="send"></md-icon>
+            </md-button>
+        </div>
+    </div>
+</div>
