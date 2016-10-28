@@ -5,13 +5,17 @@
         .controller('MainController', MainController);
 
 
-    MainController.$inject = [];
+    MainController.$inject = ['$state', 'dataService'];
 
-    function MainController() {
+    function MainController($state, dataService) {
         var vm = this;
-
-        vm.hello = 'HOLAAA';
-
+        var data = dataService.getData();
+        if(data.data){
+            dataService.clearData();
+        }
+        vm.continue = function () {
+            $state.go('track1');
+        };
     }
 
 })(window.angular);

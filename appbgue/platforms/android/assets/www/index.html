@@ -13,7 +13,8 @@ Copyright (c) Microsoft. All rights reserved.  Licensed under the MIT license. S
     <link href="css/font-awesome.min.css" rel="stylesheet"/>
     <link href="css/index.css" rel="stylesheet"/>
     <link href="scripts/frameworks/angular-material/angular-material.min.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+    <script src="scripts/frameworks/firebase.min.js"></script>
 </head>
 
 <body ng-app="bgue" ng-cloak>
@@ -26,21 +27,28 @@ Copyright (c) Microsoft. All rights reserved.  Licensed under the MIT license. S
 <!-- Cordova reference, this is added to your app when it's built. -->
 <!--<script src="cordova.js"></script>-->
 
-<!-- Angular JS -->
+<!-- Frameworks -->
 <script src="scripts/frameworks/angular.min.js"></script>
+<script src="scripts/frameworks/ngStorage.min.js"></script>
 <script src="scripts/frameworks/angular-resource.min.js"></script>
 <script src="scripts/frameworks/angular-ui-router.min.js"></script>
 <script src="scripts/frameworks/angular-material/angular-material.min.js"></script>
 <script src="scripts/frameworks/angular-animate.min.js"></script>
 <script src="scripts/frameworks/angular-aria.min.js"></script>
 <script src="scripts/frameworks/angular-messages.min.js"></script>
+<script src="scripts/frameworks/angularfire.min.js"></script>
+
 
 <!-- Initialize all the modules -->
+
 <script src="scripts/core/bgue.module.js"></script>
 <script src="scripts/core/bgue.config.js"></script>
 <script src="scripts/core/bgue.router.js"></script>
+<script src="scripts/core/bgue.constant.js"></script>
 
 <!-- Services -->
+<script src="scripts/services/bgue.service.js"></script>
+<script src="scripts/services/firebase.connect.js"></script>
 
 
 <!-- Directives -->
@@ -50,6 +58,7 @@ Copyright (c) Microsoft. All rights reserved.  Licensed under the MIT license. S
 <script src="scripts/controllers/main.controller.js"></script>
 <script src="scripts/controllers/track1.controller.js"></script>
 <script src="scripts/controllers/track2.controller.js"></script>
+<script src="scripts/controllers/end.controller.js"></script>
 
 </body>
 </html>

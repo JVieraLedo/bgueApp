@@ -1,7 +1,14 @@
-﻿<div class="container-fluid" ng-click="home.continue()">
+﻿<div class="container-fluid">
     <div class="row">
         <div class="col-xs-12 text-center">
             <img src="images/LOGO-BGUE11.png" style="width: 70%; margin: 10px"/>
+        </div>
+    </div>
+    <div layout-wrap layout-gt-sm="row" class="fixed-b">
+        <div flex-gt-sm="100">
+            <md-checkbox ng-model="data.cb1" aria-label="accept" ng-change="home.continue()">
+                <em class="text-success">Aceptas las condiciones de la promoción.</em>
+            </md-checkbox>
         </div>
     </div>
 </div>

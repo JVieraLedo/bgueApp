@@ -44,6 +44,15 @@
                         controllerAs: 'track2Ctrl'
                     }
                 }
+            })
+            .state('end', {
+                views: {
+                    "container": {
+                        templateUrl: 'templates/bgue-end.html',
+                        controller: 'EndController',
+                        controllerAs: 'endCtrl'
+                    }
+                }
             });
     }
 

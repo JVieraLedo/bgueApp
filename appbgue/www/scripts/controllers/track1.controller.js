@@ -5,10 +5,39 @@
         .controller('Track1Controller', Track1Controller);
 
 
-    Track1Controller.$inject = ['$state', 'dataService', 'FIREBASE_URL'];
+    Track1Controller.$inject = ['$state', 'dataService', '$timeout'];
 
-    function Track1Controller($state, dataService, FIREBASE_URL) {
+    function Track1Controller($state, dataService, $timeout) {
         var vm = this;
+
+        vm.articles = [];
+        vm.method = {};
+        var order = {};
+        var disabledMethod;
+        vm.showSendValue = false;
+
+        var data = dataService.getData();
+
+        if (data.data) {
+            vm.articles = data.data.articles;
+            vm.totalPrice = data.data.total;
+            vm.discount = data.data.discount;
+            vm.total = data.data.price;
+            vm.method = data.data.method;
+            getTotal();
+        }
+
+        dataService.getDataBBDD('products').then(
+            function (snapshot) {
+                var pedidos = snapshot.val();
+            }
+        );
+
+        dataService.getDataBBDD('quantities').then(
+            function (snapshot) {
+                var pedidos = snapshot.val();
+            }
+        );
 
         vm.products = [
             {name: '100 huevos', val: 20},
@@ -33,18 +62,10 @@
             {value: '50 Und.', val: 50},
             {value: '100 Und.', val: 100}
         ];
-        vm.methodTypes = [
-            {info:"Enviar el pedido a casa, incremento de 15 euros", method:"home"},
-            {info:"Recoger en tienda", method:"shop"}
-        ];
-
-        vm.articles = [];
-        vm.method = {};
 
         vm.addArticle = function () {
             var objectPost = {product: vm.product, quantity: vm.quantity, price: (vm.product.val * vm.quantity.val)};
             vm.articles.push(objectPost);
-            // dataService.postData(parseInt(idReference), objectPost);
             clearDataProduct();
             getTotal();
         };
@@ -55,20 +76,52 @@
 
         };
 
-        vm.continue = function(){
+        vm.sending = function (method) {
+            var sendPrice = 15;
+            switch (method.method) {
+                case 'shop':
+                    vm.showSendValue = false;
+                    vm.total = vm.totalPrice - vm.discount;
+                    break;
+                case 'home':
+                    vm.showSendValue = true;
+                    vm.total = vm.totalPrice - vm.discount + sendPrice;
+                    break;
+            }
+        };
+
+        vm.continue = function () {
+            order.articles = vm.articles;
+            order.total = vm.totalPrice;
+            order.discount = vm.discount;
+            order.price = vm.total;
+            order.method = vm.method;
+            $timeout(
+                dataService.updateData(order, 'order')
+                , 100);
             $state.go('track2');
+        };
+
+        vm.cancel = function () {
+            dataService.clearData();
+            $state.go('home');
         };
 
         function clearDataProduct() {
             vm.product = null;
             vm.quantity = null;
-            vm.method = null;
         }
 
         function getTotal() {
             vm.totalPrice = totals();
             vm.discount = discounts();
-            vm.total = vm.totalPrice - vm.discount;
+            var sendPrice = 0;
+            if (vm.showSendValue) {
+                sendPrice = 15;
+            }
+            vm.total = vm.totalPrice - vm.discount + sendPrice;
+            disabledMethod = !(vm.total > 50);
+            obtainMethods(disabledMethod);
         }
 
         function discounts() {
@@ -91,6 +144,17 @@
             return total;
         }
 
+        function obtainMethods(disabled) {
+            vm.method = null;
+            vm.methodTypes = [
+                {
+                    info: "Envío a domicilio, solo con pedidos superiores a 50€. (+ 15€)",
+                    method: "home",
+                    disabled: disabled
+                },
+                {info: "Recoger en tienda", method: "shop", disabled: false}
+            ];
+        }
 
     }
 
