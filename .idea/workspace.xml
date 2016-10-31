@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b23e704e-ea1a-4c1f-9d33-b19b1746989f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/icons/cancel.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/icons/checked.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/icons/visible.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/scripts/controllers/end.controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/templates/bgue-end.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/bgueApp.iml" afterPath="$PROJECT_DIR$/.idea/bgueApp.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="bgueApp.iws" />
@@ -118,8 +112,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -240,7 +234,8 @@
       <workItem from="1477327410590" duration="6722000" />
       <workItem from="1477377158770" duration="54850000" />
       <workItem from="1477642834131" duration="29000" />
-      <workItem from="1477655926548" duration="101000" />
+      <workItem from="1477655926548" duration="131000" />
+      <workItem from="1477895051735" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="INIT PROYECT">
       <created>1476889929177</created>
@@ -389,14 +384,21 @@
       <option name="project" value="LOCAL" />
       <updated>1477655969950</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="cambios en templates y finalizar">
+      <created>1477656051264</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1477656051264</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="109751000" />
+    <option name="totallyTimeSpent" value="109788000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1370" height="754" extended-state="0" />
+    <frame x="-8" y="0" width="1370" height="754" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23873875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
