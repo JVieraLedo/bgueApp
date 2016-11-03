@@ -44,7 +44,7 @@
                 products['prod_' + i].product = object.articles[i].product.name;
                 products['prod_' + i].quantity = object.articles[i].quantity.value;
             }
-            
+
             return {
                 articles: products,
                 total: object.total,
@@ -59,7 +59,8 @@
             getData: getData,
             clearData: clearData,
             sendData: sendData,
-            showAlert: showAlert
+            showAlert: showAlert,
+            getDataBBDD: getDataBBDD
         };
 
         function updateData(object) {
@@ -84,7 +85,6 @@
             });
         }
 
-
         function showAlert(confirm) {
 
             switch (confirm) {
@@ -106,6 +106,10 @@
 
             $mdDialog
                 .show(alert);
+        }
+
+        function getDataBBDD(url){
+            return firebase.database().ref(url).once('value');
         }
 
     }
