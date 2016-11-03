@@ -1,10 +1,12 @@
-﻿// Copyright (c) Microsoft. All rights reserved.  Licensed under the MIT license. See LICENSE file in the project root for full license information.
-
-(function (angular) {
+﻿(function (angular) {
     'use strict';
 
-    document.addEventListener('deviceready', function () {
-        angular.bootstrap(document, ['bgue']);
+    document.addEventListener("deviceready", function () {
+        $cordovaDeviceOrientation.getCurrentHeading().then(function(result) {
+
+        }, function(err) {
+            // An error occurred
+        });
     }, false);
 
     angular
@@ -16,6 +18,7 @@
                 'bgue.controllers',
                 'bgue.directives',
                 'firebase',
+                'ngCordova',
                 'ngStorage'
             ]);
     angular

@@ -1,0 +1,28 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Yeoman template
+node_modules/
+bower_components/
+*.log
+
+build/
+dist/
+
+.gitignore
+appbgue/platforms/android/CordovaLib/build/generated/assets/
+appbgue/platforms/android/CordovaLib/build/generated/res/
+appbgue/platforms/android/CordovaLib/build/generated/source/aidl/
+appbgue/platforms/android/CordovaLib/build/generated/source/r/
+appbgue/platforms/android/CordovaLib/build/generated/source/rs/
+appbgue/platforms/android/CordovaLib/build/intermediates/bundles/debug/aidl/
+appbgue/platforms/android/CordovaLib/build/intermediates/bundles/debug/assets/
+appbgue/platforms/android/CordovaLib/build/intermediates/bundles/debug/jni/
+appbgue/platforms/android/CordovaLib/build/intermediates/bundles/debug/libs/
+appbgue/platforms/android/CordovaLib/build/intermediates/bundles/debug/res/
+appbgue/platforms/android/CordovaLib/build/intermediates/dependency-cache/
+appbgue/platforms/android/CordovaLib/build/intermediates/jniLibs/
+appbgue/platforms/android/CordovaLib/build/intermediates/lint/
+appbgue/platforms/android/CordovaLib/build/intermediates/rs/
+appbgue/platforms/android/CordovaLib/build/intermediates/shaders/
+appbgue/platforms/android/CordovaLib/build/intermediates/transforms/
+appbgue/platforms/android/CordovaLib/build/tmp/
+appbgue/platforms/android/libs/
