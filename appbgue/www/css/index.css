@@ -10,10 +10,16 @@ body {
 /* body*/
 @media screen and (orientation: portrait)
 {
-    body {
-        background-image: url('../images/fondo_v.jpg');
+    .back-img {
+        background-image: url('../images/fondo_v.jpg') !important;
         background-size: 100% 100%;
     }
+
+    .back-other {
+        background-image: url('../images/fondo.png') !important;
+        background-size: 100% 100%;
+    }
+
     .fixed-b{
         position:fixed;
         height:50px;
@@ -25,8 +31,13 @@ body {
 }
 @media screen and (orientation: landscape)
 {
-    body {
-        background-image: url('../images/fondo_h.jpg');
+    .back-img {
+        background-image: url('../images/fondo_h.jpg') !important;
+        background-size: 100% 100%;
+    }
+
+    .back-other {
+        background-image: url('../images/fondo.png') !important;
         background-size: 100% 100%;
     }
     .fixed-b{
