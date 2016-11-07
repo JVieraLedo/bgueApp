@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b23e704e-ea1a-4c1f-9d33-b19b1746989f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/scripts/controllers/index.controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/Gulpfile_2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appbgue/www/scripts/services/firebase.data.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/css/index.css" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/css/index.css" afterPath="$PROJECT_DIR$/appbgue/www/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/index.html" afterPath="$PROJECT_DIR$/appbgue/www/index.html" />
     </list>
     <ignored path="bgueApp.iws" />
@@ -31,41 +33,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="bgue.service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="27" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.service.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+              <folding>
+                <element signature="e#323#7423#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appbgue/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
+            <state relative-caret-position="680">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/css/index.css">
+      <file leaf-file-name="cordova.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/cordova.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.controller.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/index.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bgue.router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/core/bgue.router.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -118,9 +122,11 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js" />
         <option value="$PROJECT_DIR$/appbgue/www/templates/bgue-index.html" />
-        <option value="$PROJECT_DIR$/appbgue/www/index.html" />
         <option value="$PROJECT_DIR$/appbgue/www/css/index.css" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/index.controller.js" />
+        <option value="$PROJECT_DIR$/appbgue/Gulpfile_2.js" />
+        <option value="$PROJECT_DIR$/appbgue/www/index.html" />
+        <option value="$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js" />
       </list>
     </option>
   </component>
@@ -259,33 +265,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbgue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -295,7 +275,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bgue_back" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
@@ -305,11 +285,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\bgueApp\appbgue" />
       <recent name="C:\Users\User\Desktop\bgueApp" />
       <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\controllers" />
       <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\frameworks" />
       <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\data" />
-      <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\services" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\frameworks" />
@@ -399,7 +379,7 @@
       <workItem from="1477918188445" duration="1238000" />
       <workItem from="1477924530380" duration="185000" />
       <workItem from="1478164671907" duration="1345000" />
-      <workItem from="1478180162665" duration="5915000" />
+      <workItem from="1478180162665" duration="10548000" />
     </task>
     <task id="LOCAL-00001" summary="INIT PROYECT">
       <created>1476889929177</created>
@@ -569,23 +549,30 @@
       <option name="project" value="LOCAL" />
       <updated>1478189734046</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="add back img to body rel @media in index ctrl">
+      <created>1478245930511</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1478245930511</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="121730000" />
+    <option name="totallyTimeSpent" value="126363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23809524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23809524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28341386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -624,39 +611,16 @@
     <MESSAGE value="finish app" />
     <MESSAGE value="cambios en templates y finalizar" />
     <MESSAGE value="add back img to body rel @media" />
-    <option name="LAST_COMMIT_MESSAGE" value="add back img to body rel @media" />
+    <MESSAGE value="add back img to body rel @media in index ctrl" />
+    <option name="LAST_COMMIT_MESSAGE" value="add back img to body rel @media in index ctrl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/appbgue/www/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="30650" selection-start-line="4" selection-start-column="30650" selection-end-line="4" selection-end-column="30650" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/frameworks/ngStorage.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="77" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/platforms/android/res/drawable-port-hdpi/screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/platforms/android/res/drawable-port-ldpi/screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/platforms/android/res/drawable-port-mdpi/screen.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -852,14 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/core/bgue.constant.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -934,14 +890,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -960,9 +908,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/index.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
+        <state relative-caret-position="459">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/Gulpfile_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/firebase.data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/cordova.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="27" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+          <folding>
+            <element signature="e#323#7423#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
