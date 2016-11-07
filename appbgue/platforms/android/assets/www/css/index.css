@@ -8,9 +8,46 @@ body {
 }
 
 /* body*/
-body {
-    background-image: url('../images/fondo.png');
-    background-size: 100% 100%;
+@media screen and (orientation: portrait)
+{
+    .back-img {
+        background-image: url('../images/fondo_v.jpg') !important;
+        background-size: 100% 100%;
+    }
+
+    .back-other {
+        background-image: url('../images/fondo.png') !important;
+        background-size: 100% 100%;
+    }
+
+    .fixed-b{
+        position:fixed;
+        height:50px;
+        bottom:0;
+        left:2%;
+        right:2%;
+        margin-bottom:20%;
+    }
+}
+@media screen and (orientation: landscape)
+{
+    .back-img {
+        background-image: url('../images/fondo_h.jpg') !important;
+        background-size: 100% 100%;
+    }
+
+    .back-other {
+        background-image: url('../images/fondo.png') !important;
+        background-size: 100% 100%;
+    }
+    .fixed-b{
+        position:fixed;
+        height:50px;
+        bottom:0;
+        left:2%;
+        right:2%;
+        margin-bottom:4%;
+    }
 }
 
 .no-background {
@@ -89,15 +126,6 @@ md-checkbox.md-checked.green .md-icon {
 
 .bk-form {
     background-color: rgba(244, 209, 108, 0.29) !important;
-}
-
-.fixed-b{
-    position:fixed;
-    height:50px;
-    bottom:0;
-    left:2%;
-    right:2%;
-    margin-bottom:0;
 }
 
 .md-button-table {

@@ -13,6 +13,13 @@
         if(data.data){
             dataService.clearData();
         }
+
+        dataService.getDataBBDD('orders').then(
+            function (snapshot) {
+                var pedidos = snapshot.val();
+            }
+        );
+        
         vm.continue = function () {
             $state.go('track1');
         };

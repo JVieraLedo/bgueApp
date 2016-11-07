@@ -2,21 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b23e704e-ea1a-4c1f-9d33-b19b1746989f" name="Default" comment="">
-<<<<<<< HEAD
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/Gulpfile_2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/appbgue/www/scripts/services/firebase.data.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/templates/bgue-track1.html" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/templates/bgue-track1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/templates/bgue-track2.html" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/templates/bgue-track2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/data/products.json" afterPath="$PROJECT_DIR$/appbgue/www/data/products.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js" />
->>>>>>> abd0b08bf706e1cb08e65d47e91a99011d8f7794
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/css/index.css" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/index.html" afterPath="$PROJECT_DIR$/appbgue/www/index.html" />
     </list>
     <ignored path="bgueApp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,121 +36,40 @@
       <file leaf-file-name="bgue.service.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-              <folding>
-                <element signature="e#314#559#0" expanded="false" />
-                <element signature="e#613#1148#0" expanded="false" />
-                <element signature="e#1202#1766#0" expanded="false" />
-                <element signature="e#2037#2146#0" expanded="false" />
-                <element signature="e#2175#2220#0" expanded="false" />
-                <element signature="e#2251#2298#0" expanded="false" />
-                <element signature="e#2338#2580#0" expanded="false" />
-                <element signature="e#2618#3468#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="10" />
+            <state relative-caret-position="78">
+              <caret line="27" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bgue.router.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/core/bgue.router.js">
+      <file leaf-file-name="data.service.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bgue-track1.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding>
-                <element signature="n#md-content#0;n#form#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#!!top" expanded="false" />
-                <element signature="n#div#2;n#!!top" expanded="false" />
-                <element signature="n#style#0;n#md-radio-button#0;n#div#0;n#div#0;n#md-radio-group#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#md-radio-group#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="e#323#7423#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bgue-end.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-end.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appbgue/www/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="35" />
-              <folding>
-                <element signature="n#div#2;n#div#0;n#md-content#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#3;n#div#0;n#md-content#0;n#div#0;n#!!top" expanded="false" />
-                <element signature="n#div#4;n#div#0;n#md-content#0;n#div#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="end.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/end.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9">
-              <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+            <state relative-caret-position="680">
+              <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="track2.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/track2.controller.js">
+      <file leaf-file-name="cordova.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/cordova.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="94">
-              <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="track1.controller.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="63" selection-end-column="10" />
-              <folding>
-                <element signature="e#1094#1276#0" expanded="false" />
-                <element signature="e#1302#1911#0" expanded="false" />
-                <element signature="e#1950#2177#0" expanded="false" />
-                <element signature="e#2220#2298#0" expanded="false" />
-                <element signature="e#2340#2769#0" expanded="false" />
-                <element signature="e#2806#3150#0" expanded="false" />
-                <element signature="e#3185#3264#0" expanded="false" />
-                <element signature="e#3303#3377#0" expanded="false" />
-                <element signature="e#3407#3762#0" expanded="false" />
-                <element signature="e#3793#4053#0" expanded="false" />
-                <element signature="e#4081#4304#0" expanded="false" />
-                <element signature="e#4347#4714#0" expanded="false" />
-                <element signature="e#4408#4703#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/data/products.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -166,8 +81,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="tsconfig.json" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -189,17 +104,12 @@
         <option value="$PROJECT_DIR$/appbgue/www/scripts/services/firebase.connect.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/services/firebase.data.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.constant.js" />
-        <option value="$PROJECT_DIR$/appbgue/www/templates/bgue-index.html" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/frameworks/ngStorage.min.js" />
-        <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js" />
         <option value="$PROJECT_DIR$/appbgue/platforms/android/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/appbgue/www/index.html" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/track2.controller.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.config.js" />
-        <option value="$PROJECT_DIR$/appbgue/www/css/index.css" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/services/bbddrules.json" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/end.controller.js" />
-        <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.router.js" />
         <option value="$PROJECT_DIR$/appbgue/www/templates/bgue-track2.html" />
         <option value="$PROJECT_DIR$/appbgue/www/templates/bgue-end.html" />
         <option value="$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html" />
@@ -207,6 +117,16 @@
         <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js" />
         <option value="$PROJECT_DIR$/appbgue/www/data/products.json" />
+        <option value="$PROJECT_DIR$/ani-angular-2-master/gulpfile.ts" />
+        <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.router.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js" />
+        <option value="$PROJECT_DIR$/appbgue/www/templates/bgue-index.html" />
+        <option value="$PROJECT_DIR$/appbgue/www/css/index.css" />
+        <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/index.controller.js" />
+        <option value="$PROJECT_DIR$/appbgue/Gulpfile_2.js" />
+        <option value="$PROJECT_DIR$/appbgue/www/index.html" />
+        <option value="$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js" />
       </list>
     </option>
   </component>
@@ -250,7 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -320,33 +239,63 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bgueApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bgueApp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="appbgue" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../PROYECTOS ANGULAR/arquitectura-front" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../bgue_back" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="editor.config.accepted" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\icons" />
-      <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\frameworks\angular-material\img\icons" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\bgueApp\appbgue" />
+      <recent name="C:\Users\User\Desktop\bgueApp" />
       <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\controllers" />
       <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\frameworks" />
       <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\data" />
-      <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\services" />
-      <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\frameworks\angular-material" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\frameworks" />
+      <recent name="C:\Users\User\Desktop\bgueApp" />
+      <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\icons" />
+      <recent name="C:\Users\User\Desktop\bgueApp\appbgue\www\scripts\frameworks\angular-material\img\icons" />
     </key>
   </component>
   <component name="RunManager">
@@ -421,12 +370,16 @@
       <workItem from="1476945325615" duration="12834000" />
       <workItem from="1477031932964" duration="13154000" />
       <workItem from="1477289436260" duration="21730000" />
-<<<<<<< HEAD
-      <workItem from="1477327410590" duration="7001000" />
-=======
       <workItem from="1477327410590" duration="6722000" />
-      <workItem from="1477377158770" duration="53429000" />
->>>>>>> abd0b08bf706e1cb08e65d47e91a99011d8f7794
+      <workItem from="1477377158770" duration="54850000" />
+      <workItem from="1477642834131" duration="29000" />
+      <workItem from="1477655926548" duration="131000" />
+      <workItem from="1477895051735" duration="172000" />
+      <workItem from="1477897346992" duration="3094000" />
+      <workItem from="1477918188445" duration="1238000" />
+      <workItem from="1477924530380" duration="185000" />
+      <workItem from="1478164671907" duration="1345000" />
+      <workItem from="1478180162665" duration="10548000" />
     </task>
     <task id="LOCAL-00001" summary="INIT PROYECT">
       <created>1476889929177</created>
@@ -484,20 +437,6 @@
       <option name="project" value="LOCAL" />
       <updated>1477321942984</updated>
     </task>
-<<<<<<< HEAD
-    <task id="LOCAL-00009" summary="complete controllers">
-      <created>1477345091229</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1477345091229</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
-    <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55050000" />
-=======
     <task id="LOCAL-00009" summary="edit html sizes&#10;">
       <created>1477382737260</created>
       <option name="number" value="00009" />
@@ -575,33 +514,74 @@
       <option name="project" value="LOCAL" />
       <updated>1477570481791</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="cambios en templates y finalizar">
+      <created>1477582222196</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1477582222196</updated>
+    </task>
+    <task id="LOCAL-00021" summary="cambios en templates y finalizar">
+      <created>1477655969950</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1477655969950</updated>
+    </task>
+    <task id="LOCAL-00022" summary="cambios en templates y finalizar">
+      <created>1477656051264</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1477656051264</updated>
+    </task>
+    <task id="LOCAL-00023" summary="add back img to body rel @media">
+      <created>1478181675993</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1478181675993</updated>
+    </task>
+    <task id="LOCAL-00024" summary="add back img to body rel @media">
+      <created>1478189734046</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1478189734046</updated>
+    </task>
+    <task id="LOCAL-00025" summary="add back img to body rel @media in index ctrl">
+      <created>1478245930511</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1478245930511</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="108200000" />
->>>>>>> abd0b08bf706e1cb08e65d47e91a99011d8f7794
+    <option name="totallyTimeSpent" value="126363000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23883928" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23809524" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28341386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28341386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -624,108 +604,23 @@
     <MESSAGE value="Changes office" />
     <MESSAGE value="Merge branch 'master' of https://github.com/JVieraLedo/bgueApp&#10;&#10;# Conflicts:&#10;#&#9;appbgue/www/scripts/controllers/main.controller.js&#10;#&#9;appbgue/www/scripts/controllers/track1.controller.js&#10;#&#9;appbgue/www/templates/bgue-track1.html&#10;&#10;RESOLVES MERGES" />
     <MESSAGE value="Add post data with firebase" />
-<<<<<<< HEAD
-    <MESSAGE value="complete controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete controllers" />
-=======
     <MESSAGE value="edit html sizes&#10;" />
     <MESSAGE value="finish save data to localstorage" />
     <MESSAGE value="add images app" />
     <MESSAGE value="add images app and create finish ctrl" />
     <MESSAGE value="finish app" />
     <MESSAGE value="cambios en templates y finalizar" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios en templates y finalizar" />
->>>>>>> abd0b08bf706e1cb08e65d47e91a99011d8f7794
+    <MESSAGE value="add back img to body rel @media" />
+    <MESSAGE value="add back img to body rel @media in index ctrl" />
+    <option name="LAST_COMMIT_MESSAGE" value="add back img to body rel @media in index ctrl" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="6" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/localStorage.js" />
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/storage.js" />
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/MobileServices.Web.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2193">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/platformOverrides.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="47" selection-start-line="0" selection-start-column="47" selection-end-line="0" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/data/tsconfig.json" />
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/data/dataUsers.json" />
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/frameworks/angular-material/modules/closure/toolbar/toolbar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/images/cabecera.png" />
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/frameworks/firebase.js" />
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/firebase.data.js" />
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/core/bgue.constant.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="4" column="30650" selection-start-line="4" selection-start-column="30650" selection-end-line="4" selection-end-column="30650" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/frameworks/ngStorage.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="77" selection-start-line="2" selection-start-column="68" selection-end-line="2" selection-end-column="77" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/platforms/android/res/drawable-port-hdpi/screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/platforms/android/res/drawable-port-ldpi/screen.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/platforms/android/res/drawable-port-mdpi/screen.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -736,11 +631,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/platforms/android/res/drawable-hdpi/logo.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/platforms/android/res/drawable-hdpi/logo.png" />
     <entry file="file://$PROJECT_DIR$/appbgue/platforms/android/res/drawable-land-mdpi/screen.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -785,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-110">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -793,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -801,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -809,7 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -817,15 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -833,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -841,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -849,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -857,6 +732,110 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bbddrules.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/track2.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-track2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="80" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-end.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="63" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/data/products.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue_back/www/css/index.css" />
+    <entry file="file://$PROJECT_DIR$/ani-angular-2-master/gulpfile.ts" />
+    <entry file="file://$PROJECT_DIR$/appbgue/platforms/platforms.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/platforms/android/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/node_modules/firebase/firebase.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="139" column="227" selection-start-line="139" selection-start-column="227" selection-end-line="139" selection-end-column="227" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/core/bgue.constant.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/platformOverrides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/MobileServices.Web.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="11376" column="4" selection-start-line="11376" selection-start-column="4" selection-end-line="11376" selection-end-column="4" />
           <folding />
         </state>
       </provider>
@@ -869,134 +848,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/css/index.css">
+    <entry file="file://$PROJECT_DIR$/appbgue/Gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="114" column="29" selection-start-line="114" selection-start-column="29" selection-end-line="114" selection-end-column="29" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bbddrules.json">
+    <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="n#style#0;n#em#0;n#md-checkbox#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="11" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/track2.controller.js">
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="15" />
+        <state relative-caret-position="204">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/end.controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="41" column="50" selection-start-line="41" selection-start-column="50" selection-end-line="41" selection-end-column="50" />
+        <state relative-caret-position="255">
+          <caret line="55" column="10" selection-start-line="55" selection-start-column="10" selection-end-line="55" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-track2.html">
+    <entry file="file://$PROJECT_DIR$/appbgue/www/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="80" selection-end-column="17" />
-          <folding>
-            <element signature="n#md-content#0;n#form#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-end.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="35" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#md-content#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#0;n#md-content#0;n#div#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#0;n#md-content#0;n#div#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="118" column="0" selection-start-line="118" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-          <folding>
-            <element signature="n#md-content#0;n#form#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#md-radio-button#0;n#div#0;n#div#0;n#md-radio-group#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#md-radio-group#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="221">
+          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/core/bgue.router.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        <state relative-caret-position="306">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/index.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/Gulpfile_2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/firebase.data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/cordova.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
-          <folding>
-            <element signature="e#314#559#0" expanded="false" />
-            <element signature="e#613#1148#0" expanded="false" />
-            <element signature="e#1202#1766#0" expanded="false" />
-            <element signature="e#2037#2146#0" expanded="false" />
-            <element signature="e#2175#2220#0" expanded="false" />
-            <element signature="e#2251#2298#0" expanded="false" />
-            <element signature="e#2338#2580#0" expanded="false" />
-            <element signature="e#2618#3468#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/main.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="20" selection-end-column="10" />
+        <state relative-caret-position="78">
+          <caret line="27" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="116" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js">
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="41" column="4" selection-start-line="41" selection-start-column="4" selection-end-line="63" selection-end-column="10" />
+        <state relative-caret-position="187">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
-            <element signature="e#1094#1276#0" expanded="false" />
-            <element signature="e#1302#1911#0" expanded="false" />
-            <element signature="e#1950#2177#0" expanded="false" />
-            <element signature="e#2220#2298#0" expanded="false" />
-            <element signature="e#2340#2769#0" expanded="false" />
-            <element signature="e#2806#3150#0" expanded="false" />
-            <element signature="e#3185#3264#0" expanded="false" />
-            <element signature="e#3303#3377#0" expanded="false" />
-            <element signature="e#3407#3762#0" expanded="false" />
-            <element signature="e#3793#4053#0" expanded="false" />
-            <element signature="e#4081#4304#0" expanded="false" />
-            <element signature="e#4347#4714#0" expanded="false" />
-            <element signature="e#4408#4703#0" expanded="false" />
+            <element signature="e#323#7423#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/data/products.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>

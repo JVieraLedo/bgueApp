@@ -27,6 +27,17 @@
             getTotal();
         }
 
+        dataService.getDataBBDD('products').then(
+            function (snapshot) {
+                var pedidos = snapshot.val();
+            }
+        );
+
+        dataService.getDataBBDD('quantities').then(
+            function (snapshot) {
+                var pedidos = snapshot.val();
+            }
+        );
 
         vm.products = [
             {name: '100 huevos', val: 20},
