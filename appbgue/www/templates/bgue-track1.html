@@ -1,14 +1,16 @@
 ﻿<div class="row"><img src="images/cabecera.png" class="cabecera"/></div>
 <form ng-submit="track1Ctrl.addArticle()">
-    <md-content class="transparent">
-        <div layout="row">
-            <md-input-container class="md-block" flex-gt-xs flex="600">
+    <md-content class="transparent row">
+        <div layout="row" layout-xs="column">
+            <md-input-container class="md-block" flex-gt-sm>
                 <label>Articulo</label>
                 <md-autocomplete
+                        id='autocomplete'
                         md-selected-item="track1Ctrl.product"
                         md-search-text="track1Ctrl.searchText"
                         md-items="item in track1Ctrl.querySearch(track1Ctrl.searchText)"
                         md-item-text="item.nombre"
+                        md-menu-class="autocomplete"
                         md-min-length="0">
                     <md-item-template>
                         <span md-highlight-text="track1Ctrl.searchText">{{item.nombre}}</span>
@@ -18,20 +20,23 @@
                     </md-not-found>
                 </md-autocomplete>
             </md-input-container>
-            <md-input-container class="md-block" flex-gt-xs flex="300" layout-align="right">
-                <label>Cantidad</label>
-                <input type="number" class="text-right"/>
-            </md-input-container>
-            <md-input-container class="md-block" flex-gt-xs flex="300">
-                <md-item-template>
-                    <span class="text-success"><em>{{track1Ctrl.product.formato | uppercase}}</em></span>
-                </md-item-template>
-            </md-input-container>
-            <md-button type="submit" aria-label="Añadir articulo"
-                       ng-disabled="!track1Ctrl.product || !track1Ctrl.quantity"
-                       class="md-button-table">
-                <md-icon md-svg-icon="add"></md-icon>
-            </md-button>
+            <div layout="row">
+                <md-input-container class="md-block" flex-gt-sm>
+                    <label>Cantidad</label>
+                    <input type="text" ng-model="track1Ctrl.quantity"
+                           ng-change="track1Ctrl.pattern()"/>
+                    <md-icon md-font-set="regular-font" style="width: 100px;">
+                        <span class="text-success text-xs"><em>{{track1Ctrl.product.formato | uppercase}}</em></span>
+                    </md-icon>
+                </md-input-container>
+                <md-input-container flex-gt-sm>
+                    <md-button type="submit" aria-label="Añadir articulo"
+                               ng-disabled="!track1Ctrl.product || !track1Ctrl.quantity"
+                               class="md-button-table">
+                        <md-icon md-svg-icon="add"></md-icon>
+                    </md-button>
+                </md-input-container>
+            </div>
         </div>
     </md-content>
 </form>
@@ -54,9 +59,9 @@
         </thead>
         <tbody>
         <tr ng-repeat="art in track1Ctrl.articles">
-            <td>{{art.product.name}}</td>
-            <td>{{art.quantity.value}}</td>
-            <td class="text-right">{{art.price}}<span class="ml-5">&#8364;</span></td>
+            <td>{{art.product}}</td>
+            <td>{{art.quantity}} {{art.format}}</td>
+            <td class="text-right">{{art.price | number:2}}<span class="ml-5">&#8364;</span></td>
             <td class="text-right">
                 <md-button aria-label="Eliminar articulo" ng-click="track1Ctrl.removeArt($index)"
                            class="md-button-table">
@@ -72,7 +77,7 @@
         </tr>
         <tr>
             <td colspan="2" class="text-right"><h4><b>TOTAL PEDIDO</b></h4></td>
-            <td colspan="2" class="text-right text-primary"><h4><b>{{track1Ctrl.total}}</b><span
+            <td colspan="2" class="text-right text-primary"><h4><b>{{track1Ctrl.total | number:2}}</b><span
                     class="ml-5">&#8364;</span></h4></td>
         </tr>
         </tfoot>

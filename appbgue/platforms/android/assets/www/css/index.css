@@ -142,3 +142,39 @@ md-checkbox.md-checked.green .md-icon {
 .p-sm{
     padding: 50px !important;
 }
+
+.mt-xs{
+    padding-top: 10px;
+}
+
+.text-xs{
+    font-size: 80%;
+}
+
+.btn-add{
+    padding-left: 20% !important;
+    margin-bottom: 30px !important;
+}
+
+.autocomplete li {
+    border-bottom: 1px solid rgba(255, 246, 8, 0.45);
+    height: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    white-space: normal; }
+
+.autocomplete li:last-child {
+    border-bottom-width: 0; }
+
+.autocomplete .item-title,
+.autocomplete .item-metadata {
+    display: block;
+    line-height: 1; }
+
+.autocomplete .item-title md-icon {
+    height: 18px;
+    width: 18px; }
+
+md-input-container.md-bgueTheme-theme .md-input {
+    font-size: 90%;
+}

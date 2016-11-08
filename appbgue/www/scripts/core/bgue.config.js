@@ -24,6 +24,13 @@
                     'default': '100'
                 })
                 .accentPalette('green');
-        });
+        })
+        .config(['$provide', function ($provide) {
+            $provide.decorator('$locale', ['$delegate', function ($delegate) {
+                $delegate.NUMBER_FORMATS.DECIMAL_SEP = ',';
+                $delegate.NUMBER_FORMATS.GROUP_SEP = '.';
+                return $delegate;
+            }]);
+        }]);
 
 })(window.angular);

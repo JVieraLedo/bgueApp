@@ -17,8 +17,7 @@
         vm.articles = data.data.articles;
         vm.discount = data.data.discount;
         vm.method = data.data.method;
-        vm.totalPrice = data.data.price;
-        vm.total = data.data.total;
+        vm.total = data.data.price;
 
         vm.showConfirm = function (ev) {
 

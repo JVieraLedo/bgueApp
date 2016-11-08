@@ -25,34 +25,37 @@
             vm.totalPrice = data.data.total;
             vm.total = data.data.price;
             vm.method = data.data.method;
-            getTotal();
+            getTotal(true);
         }
 
         vm.addArticle = function () {
-            var objectPost = {product: vm.product, quantity: vm.quantity, price: (vm.product.val * vm.quantity.val)};
+            var objectPost = {
+                product: vm.product.nombre,
+                quantity: vm.quantity,
+                format: vm.product.formato,
+                price: (vm.product.value * vm.quantity)
+            };
             vm.articles.push(objectPost);
             clearDataProduct();
-            getTotal();
+            getTotal(true);
         };
 
         vm.removeArt = function (index) {
             vm.articles.splice(index, 1);
-            getTotal();
+            getTotal(true);
 
         };
 
         vm.sending = function (method) {
-            var sendPrice = 15;
             switch (method.method) {
-                case 'shop':
+                case 'tienda':
                     vm.showSendValue = false;
-                    vm.total = vm.totalPrice - vm.discount;
                     break;
-                case 'home':
+                case 'casa':
                     vm.showSendValue = true;
-                    vm.total = vm.totalPrice - vm.discount + sendPrice;
                     break;
             }
+            getTotal(false);
         };
 
         vm.continue = function () {
@@ -70,12 +73,18 @@
             $state.go('home');
         };
 
+        vm.pattern = function () {
+            vm.quantity = vm.quantity ? parseInt(vm.quantity) : vm.quantity;
+        };
+
         function clearDataProduct() {
-            vm.product = null;
+            var autoChild = document.getElementById('autocomplete').firstElementChild;
+            var el = angular.element(autoChild);
+            el.scope().$mdAutocompleteCtrl.scope.selectedItem = null;
             vm.quantity = null;
         }
 
-        function getTotal() {
+        function getTotal(refress) {
             vm.totalPrice = totals();
             var sendPrice = 0;
             if (vm.showSendValue) {
@@ -83,7 +92,10 @@
             }
             vm.total = vm.totalPrice + sendPrice;
             disabledMethod = !(vm.total > 50);
-            obtainMethods(disabledMethod);
+            if (refress) {
+                obtainMethods(disabledMethod);
+            }
+
         }
 
         function totals() {

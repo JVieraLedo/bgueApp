@@ -5,95 +5,61 @@
         .controller('Track1Controller', Track1Controller);
 
 
-    Track1Controller.$inject = ['$state', 'dataService', '$timeout'];
+    Track1Controller.$inject = ['$state', 'dataService', '$timeout', '$q', 'dataSelects'];
 
-    function Track1Controller($state, dataService, $timeout) {
+    function Track1Controller($state, dataService, $timeout, $q, dataSelects) {
         var vm = this;
 
         vm.articles = [];
         vm.method = {};
         var order = {};
         var disabledMethod;
-        vm.showSendValue = false;
+        var simulateQuery = true;
 
         var data = dataService.getData();
+        vm.products = dataSelects.getDataProducts();
+        vm.querySearch = querySearch;
 
         if (data.data) {
             vm.articles = data.data.articles;
             vm.totalPrice = data.data.total;
-            vm.discount = data.data.discount;
             vm.total = data.data.price;
             vm.method = data.data.method;
-            getTotal();
+            getTotal(true);
         }
 
-        dataService.getDataBBDD('products').then(
-            function (snapshot) {
-                var pedidos = snapshot.val();
-            }
-        );
-
-        dataService.getDataBBDD('quantities').then(
-            function (snapshot) {
-                var pedidos = snapshot.val();
-            }
-        );
-
-        vm.products = [
-            {name: '100 huevos', val: 20},
-            {name: '200 huevos', val: 40},
-            {name: '300 huevos', val: 60},
-            {name: '400 huevos', val: 80}
-        ];
-        vm.quantities = [
-            {value: '1 Und.', val: 1},
-            {value: '2 Und.', val: 2},
-            {value: '3 Und.', val: 3},
-            {value: '4 Und.', val: 4},
-            {value: '5 Und.', val: 5},
-            {value: '6 Und.', val: 6},
-            {value: '7 Und.', val: 7},
-            {value: '8 Und.', val: 8},
-            {value: '9 Und.', val: 9},
-            {value: '10 Und.', val: 10},
-            {value: '15 Und.', val: 15},
-            {value: '20 Und.', val: 20},
-            {value: '25 Und.', val: 25},
-            {value: '50 Und.', val: 50},
-            {value: '100 Und.', val: 100}
-        ];
-
         vm.addArticle = function () {
-            var objectPost = {product: vm.product, quantity: vm.quantity, price: (vm.product.val * vm.quantity.val)};
+            var objectPost = {
+                product: vm.product.nombre,
+                quantity: vm.quantity,
+                format: vm.product.formato,
+                price: (vm.product.value * vm.quantity)
+            };
             vm.articles.push(objectPost);
             clearDataProduct();
-            getTotal();
+            getTotal(true);
         };
 
         vm.removeArt = function (index) {
             vm.articles.splice(index, 1);
-            getTotal();
+            getTotal(true);
 
         };
 
         vm.sending = function (method) {
-            var sendPrice = 15;
             switch (method.method) {
-                case 'shop':
+                case 'tienda':
                     vm.showSendValue = false;
-                    vm.total = vm.totalPrice - vm.discount;
                     break;
-                case 'home':
+                case 'casa':
                     vm.showSendValue = true;
-                    vm.total = vm.totalPrice - vm.discount + sendPrice;
                     break;
             }
+            getTotal(false);
         };
 
         vm.continue = function () {
             order.articles = vm.articles;
-            order.total = vm.totalPrice;
-            order.discount = vm.discount;
             order.price = vm.total;
             order.method = vm.method;
             $timeout(
@@ -107,32 +73,29 @@
             $state.go('home');
         };
 
+        vm.pattern = function () {
+            vm.quantity = vm.quantity ? parseInt(vm.quantity) : vm.quantity;
+        };
+
         function clearDataProduct() {
-            vm.product = null;
+            var autoChild = document.getElementById('autocomplete').firstElementChild;
+            var el = angular.element(autoChild);
+            el.scope().$mdAutocompleteCtrl.scope.selectedItem = null;
             vm.quantity = null;
         }
 
-        function getTotal() {
+        function getTotal(refress) {
             vm.totalPrice = totals();
-            vm.discount = discounts();
             var sendPrice = 0;
             if (vm.showSendValue) {
                 sendPrice = 15;
             }
-            vm.total = vm.totalPrice - vm.discount + sendPrice;
+            vm.total = vm.totalPrice + sendPrice;
             disabledMethod = !(vm.total > 50);
-            obtainMethods(disabledMethod);
-        }
-
-        function discounts() {
-            var total = totals();
-            if (total <= 10) {
-                return 10;
-            } else if (total > 10 && total <= 60) {
-                return 20;
-            } else if (total > 60) {
-                return 30;
+            if (refress) {
+                obtainMethods(disabledMethod);
             }
+
         }
 
         function totals() {
@@ -149,13 +112,40 @@
             vm.methodTypes = [
                 {
                     info: "Envío a domicilio, solo con pedidos superiores a 50€. (+ 15€)",
-                    method: "home",
+                    method: "casa",
                     disabled: disabled
                 },
-                {info: "Recoger en tienda", method: "shop", disabled: false}
+                {info: "Recoger en tienda", method: "tienda", disabled: false}
             ];
+        }
+
+        function querySearch(query) {
+            var results = query ? createFilterFor(query, vm.products) : vm.products,
+                deferred;
+            if (simulateQuery) {
+                deferred = $q.defer();
+                $timeout(function () {
+                    deferred.resolve(results);
+                }, Math.random() * 500, false);
+                return deferred.promise;
+            } else {
+                return results;
+            }
+        }
+
+        function createFilterFor(query, items) {
+            var result = [];
+
+            var searchText = query.toLowerCase();
+            angular.forEach(items, function (item) {
+                if (item.nombre.toLowerCase().indexOf(searchText) >= 0) result.push(item);
+            });
+
+            return result;
+
         }
 
     }
 
 })(window.angular);
+

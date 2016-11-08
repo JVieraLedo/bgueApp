@@ -57,7 +57,7 @@
     }
 
     function run($state) {
-        $state.go('home');
+        $state.go('end');
     }
 
 })(window.angular);

@@ -12,12 +12,22 @@ Copyright (c) Microsoft. All rights reserved.  Licensed under the MIT license. S
     <link href="css/flexslider.css" rel="stylesheet"/>
     <link href="css/font-awesome.min.css" rel="stylesheet"/>
     <link href="css/index.css" rel="stylesheet"/>
-    <link href="scripts/frameworks/angular-material/angular-material.min.css" rel="stylesheet" />
+    <link href="scripts/frameworks/angular-material/angular-material.min.css" rel="stylesheet"/>
     <script src="scripts/frameworks/firebase.min.js"></script>
 </head>
 
 <body ng-app="bgue" ng-cloak ng-controller="IndexController as index"
       ng-class="index.background ? 'back-img' : 'back-other'">
+
+<div class="m-app-loading" ng-animate-children>
+    <div class="animated-container">
+        <div class="messaging">
+            <h1>
+                App is Loading
+            </h1>
+        </div>
+    </div>
+</div>
 
 <div class="container-fluid" md-theme="bgueTheme">
     <div ui-view="container"></div>
@@ -54,8 +64,8 @@ Copyright (c) Microsoft. All rights reserved.  Licensed under the MIT license. S
 <script src="scripts/services/data.service.js"></script>
 
 
-
 <!-- Directives -->
+<script src="scripts/directives/loading.directive.js"></script>
 
 
 <!-- Controllers -->
@@ -67,3 +77,4 @@ Copyright (c) Microsoft. All rights reserved.  Licensed under the MIT license. S
 
 </body>
 </html>
+

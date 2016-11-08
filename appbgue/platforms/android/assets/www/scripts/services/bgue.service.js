@@ -41,14 +41,12 @@
 
             for (var i = 0; i < object.articles.length; i++) {
                 products['prod_' + i] = {};
-                products['prod_' + i].product = object.articles[i].product.name;
-                products['prod_' + i].quantity = object.articles[i].quantity.value;
+                products['prod_' + i].product = object.articles[i].product;
+                products['prod_' + i].quantity = object.articles[i].quantity;
             }
 
             return {
                 articles: products,
-                total: object.total,
-                discount: object.discount,
                 price: object.price,
                 method: object.method.method
             };

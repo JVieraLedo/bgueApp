@@ -57,10 +57,10 @@
         </div>
     </md-content>
     <md-divider></md-divider>
-    <div layout="row" ng-if="endCtrl.articles.length > 0">
+    <div class="row" ng-if="endCtrl.articles.length > 0">
         <table class="table">
             <thead class="thead-default">
-            <tr >
+            <tr>
                 <th width="40%">
                     ARTICULO
                 </th>
@@ -74,27 +74,20 @@
             </thead>
             <tbody>
             <tr ng-repeat="art in endCtrl.articles">
-                <td>{{art.product.name}}</td>
-                <td>{{art.quantity.value}}</td>
-                <td class="text-right">{{art.price}}<span class="ml-5">&#8364;</span></td>
+                <td>{{art.product}}</td>
+                <td>{{art.quantity}} {{art.format}}</td>
+                <td class="text-right">{{art.price | number:2}}<span class="ml-5">&#8364;</span></td>
             </tr>
             </tbody>
             <tfoot>
-            <tr>
-                <td colspan="2" class="text-right"><h5>Total</h5></td>
-                <td colspan="2" class="text-right"><h5>{{endCtrl.totalPrice}}<span class="ml-5">&#8364;</span></h5></td>
-            </tr>
-            <tr>
-                <td colspan="2" class="text-right"><h5><em>Descuentos</em></h5></td>
-                <td colspan="2" class="text-right text-danger"><h5><em>- {{endCtrl.discount}}<span class="ml-5">&#8364;</span></em></h5></td>
-            </tr>
-            <tr ng-if="endCtrl.method.method == 'home'">
+            <tr ng-if="endCtrl.method.method == 'casa'">
                 <td colspan="2" class="text-right"><h5><em>Gastos de Envio</em></h5></td>
                 <td colspan="2" class="text-right text-danger"><h5><em>15<span class="ml-5">&#8364;</span></em></h5></td>
             </tr>
             <tr>
-                <td colspan="2" class="text-right"><h4><b>PRECIO FINAL</b></h4></td>
-                <td colspan="2" class="text-right text-primary"><h4><b>{{endCtrl.total}}</b><span class="ml-5">&#8364;</span></h4></td>
+                <td colspan="2" class="text-right"><h4><b>TOTAL PEDIDO</b></h4></td>
+                <td colspan="2" class="text-right text-primary"><h4><b>{{endCtrl.total | number:2}}</b><span
+                        class="ml-5">&#8364;</span></h4></td>
             </tr>
             </tfoot>
         </table>

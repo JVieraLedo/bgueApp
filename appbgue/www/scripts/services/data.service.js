@@ -28,7 +28,7 @@
                 },
                 {
                     nombre: 'Sobre de paleta ibérica de bellota',
-                    formato: 'unidad 80gr',
+                    formato: 'unidad (80gr)',
                     precio: '9,60',
                     value: 9.6
                 },
@@ -40,13 +40,13 @@
                 },
                 {
                     nombre: 'Chorizo ibérico de bellota',
-                    formato: 'ristra 200 grs',
+                    formato: 'ristra (200 grs)',
                     precio: '4,50',
                     value: 4.5
                 },
                 {
                     nombre: 'Salchichón ibérico de bellota',
-                    formato: 'ristra 200 grs',
+                    formato: 'ristra (200 grs)',
                     precio: '4,50',
                     value: 4.5
                 },
