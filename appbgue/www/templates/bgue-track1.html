@@ -4,19 +4,28 @@
         <div layout="row">
             <md-input-container class="md-block" flex-gt-xs flex="600">
                 <label>Articulo</label>
-                <md-select ng-model="track1Ctrl.product">
-                    <md-option ng-repeat="art in track1Ctrl.products" ng-value="art">
-                        {{art.name}}
-                    </md-option>
-                </md-select>
+                <md-autocomplete
+                        md-selected-item="track1Ctrl.product"
+                        md-search-text="track1Ctrl.searchText"
+                        md-items="item in track1Ctrl.querySearch(track1Ctrl.searchText)"
+                        md-item-text="item.nombre"
+                        md-min-length="0">
+                    <md-item-template>
+                        <span md-highlight-text="track1Ctrl.searchText">{{item.nombre}}</span>
+                    </md-item-template>
+                    <md-not-found>
+                        <em>Producto "{{track1Ctrl.searchText}}" no se ha encontrado.</em>
+                    </md-not-found>
+                </md-autocomplete>
+            </md-input-container>
+            <md-input-container class="md-block" flex-gt-xs flex="300" layout-align="right">
+                <label>Cantidad</label>
+                <input type="number" class="text-right"/>
             </md-input-container>
             <md-input-container class="md-block" flex-gt-xs flex="300">
-                <label>Cantidad</label>
-                <md-select ng-model="track1Ctrl.quantity">
-                    <md-option ng-repeat="quantity in track1Ctrl.quantities" ng-value="quantity">
-                        {{quantity.value}}
-                    </md-option>
-                </md-select>
+                <md-item-template>
+                    <span class="text-success"><em>{{track1Ctrl.product.formato | uppercase}}</em></span>
+                </md-item-template>
             </md-input-container>
             <md-button type="submit" aria-label="Añadir articulo"
                        ng-disabled="!track1Ctrl.product || !track1Ctrl.quantity"
@@ -57,21 +66,12 @@
         </tr>
         </tbody>
         <tfoot>
-        <tr>
-            <td colspan="2" class="text-right"><h5>Total</h5></td>
-            <td colspan="2" class="text-right"><h5>{{track1Ctrl.totalPrice}}<span class="ml-5">&#8364;</span></h5></td>
-        </tr>
-        <tr>
-            <td colspan="2" class="text-right"><h5><em>Descuentos</em></h5></td>
-            <td colspan="2" class="text-right text-danger"><h5><em>- {{track1Ctrl.discount}}<span
-                    class="ml-5">&#8364;</span></em></h5></td>
-        </tr>
         <tr ng-if="track1Ctrl.showSendValue">
             <td colspan="2" class="text-right"><h5><em>Gastos de Envio</em></h5></td>
             <td colspan="2" class="text-right text-danger"><h5><em>15<span class="ml-5">&#8364;</span></em></h5></td>
         </tr>
         <tr>
-            <td colspan="2" class="text-right"><h4><b>PRECIO FINAL</b></h4></td>
+            <td colspan="2" class="text-right"><h4><b>TOTAL PEDIDO</b></h4></td>
             <td colspan="2" class="text-right text-primary"><h4><b>{{track1Ctrl.total}}</b><span
                     class="ml-5">&#8364;</span></h4></td>
         </tr>
@@ -113,6 +113,4 @@
         </md-button>
     </div>
 </div>
-
-
 

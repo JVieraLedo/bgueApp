@@ -15,16 +15,16 @@
         function getDataProducts() {
             return [
                 {
-                    nombre: 'Media Docena Huevos "S"',
-                    formato: 'estuche',
-                    precio: '1,10',
-                    value: 1.1
+                    nombre: 'Docena Huevos "S"',
+                    formato: 'docena',
+                    precio: '2,20',
+                    value: 2.2
                 },
                 {
-                    nombre: 'Media Docena Huevos "ML"',
-                    formato: 'estuche',
-                    precio: '1,50',
-                    value: 1.5
+                    nombre: 'Docena Huevos "ML"',
+                    formato: 'docena',
+                    precio: '3,00',
+                    value: 3
                 },
                 {
                     nombre: 'Sobre de paleta ibérica de bellota',

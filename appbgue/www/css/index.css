@@ -142,3 +142,7 @@ md-checkbox.md-checked.green .md-icon {
 .p-sm{
     padding: 50px !important;
 }
+
+.mt-xs{
+    padding-top: 10px;
+}
