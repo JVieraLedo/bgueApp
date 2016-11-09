@@ -14,8 +14,7 @@
                 articles: object.articles,
                 total: object.total,
                 discount: object.discount,
-                price: object.price,
-                method: object.method
+                price: object.price
             };
         };
 
@@ -47,8 +46,7 @@
 
             return {
                 articles: products,
-                price: object.price,
-                method: object.method.method
+                price: object.price
             };
         };
 
@@ -106,7 +104,7 @@
                 .show(alert);
         }
 
-        function getDataBBDD(url){
+        function getDataBBDD(url) {
             return firebase.database().ref(url).once('value');
         }
 

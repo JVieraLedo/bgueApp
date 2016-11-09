@@ -11,9 +11,7 @@
         var vm = this;
 
         vm.articles = [];
-        vm.method = {};
         var order = {};
-        var disabledMethod;
         var simulateQuery = true;
 
         var data = dataService.getData();
@@ -24,7 +22,6 @@
             vm.articles = data.data.articles;
             vm.totalPrice = data.data.total;
             vm.total = data.data.price;
-            vm.method = data.data.method;
             getTotal(true);
         }
 
@@ -37,7 +34,7 @@
             };
             vm.articles.push(objectPost);
             clearDataProduct();
-            getTotal(true);
+            getTotal();
         };
 
         vm.removeArt = function (index) {
@@ -46,22 +43,9 @@
 
         };
 
-        vm.sending = function (method) {
-            switch (method.method) {
-                case 'tienda':
-                    vm.showSendValue = false;
-                    break;
-                case 'casa':
-                    vm.showSendValue = true;
-                    break;
-            }
-            getTotal(false);
-        };
-
         vm.continue = function () {
             order.articles = vm.articles;
             order.price = vm.total;
-            order.method = vm.method;
             $timeout(
                 dataService.updateData(order, 'order')
                 , 100);
@@ -84,18 +68,9 @@
             vm.quantity = null;
         }
 
-        function getTotal(refress) {
+        function getTotal() {
             vm.totalPrice = totals();
-            var sendPrice = 0;
-            if (vm.showSendValue) {
-                sendPrice = 15;
-            }
-            vm.total = vm.totalPrice + sendPrice;
-            disabledMethod = !(vm.total > 50);
-            if (refress) {
-                obtainMethods(disabledMethod);
-            }
-
+            vm.total = vm.totalPrice;
         }
 
         function totals() {
@@ -105,18 +80,6 @@
                 total += article.price;
             }
             return total;
-        }
-
-        function obtainMethods(disabled) {
-            vm.method = null;
-            vm.methodTypes = [
-                {
-                    info: "Envío a domicilio, solo con pedidos superiores a 50€. (+ 15€)",
-                    method: "casa",
-                    disabled: disabled
-                },
-                {info: "Recoger en tienda", method: "tienda", disabled: false}
-            ];
         }
 
         function querySearch(query) {

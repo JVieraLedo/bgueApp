@@ -1,31 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b23e704e-ea1a-4c1f-9d33-b19b1746989f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/appbgue/www/scripts/directives/loading.directive.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/scripts/services/firebase.data.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/appbgue/platforms/android/.gradle/2.13/taskArtifacts/taskArtifacts.bin" />
+    <list default="true" id="b23e704e-ea1a-4c1f-9d33-b19b1746989f" name="Default" comment="add back img to body rel @media in index ctrl">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/css/index.css" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/scripts/controllers/end.controller.js" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/scripts/controllers/end.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/scripts/controllers/track1.controller.js" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/scripts/controllers/track1.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/scripts/core/bgue.config.js" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/scripts/core/bgue.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/scripts/core/bgue.router.js" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/scripts/core/bgue.router.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/scripts/services/bgue.service.js" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/scripts/services/bgue.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/templates/bgue-end.html" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/templates/bgue-end.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/templates/bgue-track1.html" afterPath="$PROJECT_DIR$/appbgue/platforms/android/assets/www/templates/bgue-track1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/css/index.css" afterPath="$PROJECT_DIR$/appbgue/www/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/index.html" afterPath="$PROJECT_DIR$/appbgue/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/controllers/end.controller.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/controllers/end.controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.config.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.router.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.router.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js" afterPath="$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/templates/bgue-end.html" afterPath="$PROJECT_DIR$/appbgue/www/templates/bgue-end.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html" afterPath="$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html" />
     </list>
@@ -48,21 +29,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="loading.directive.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/directives/loading.directive.js">
+      <file leaf-file-name="bgue-track1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
-              <folding />
+            <state relative-caret-position="191">
+              <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+              <folding>
+                <element signature="n#style#0;n#md-icon#0;n#md-input-container#0;n#div#0;n#div#0;n#md-content#0;n#form#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/appbgue/www/index.html">
+      <file leaf-file-name="bgue-end.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-end.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+            <state relative-caret-position="174">
+              <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+              <folding>
+                <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.service.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
               <folding />
             </state>
           </provider>
@@ -71,15 +66,50 @@
       <file leaf-file-name="bgue.service.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+            <state relative-caret-position="166">
+              <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
               <folding>
-                <element signature="e#613#1148#0" expanded="false" />
-                <element signature="e#1946#2055#0" expanded="false" />
-                <element signature="e#2084#2129#0" expanded="false" />
-                <element signature="e#2160#2207#0" expanded="false" />
-                <element signature="e#2527#3377#0" expanded="false" />
-                <element signature="e#3412#3486#0" expanded="false" />
+                <element signature="e#574#1109#0" expanded="false" />
+                <element signature="e#1861#1970#0" expanded="false" />
+                <element signature="e#1999#2044#0" expanded="false" />
+                <element signature="e#2075#2122#0" expanded="false" />
+                <element signature="e#3328#3402#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="firebase.connect.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/firebase.connect.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bbddrules.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bbddrules.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="track1.controller.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <folding>
+                <element signature="e#1168#1250#0" expanded="false" />
+                <element signature="e#1545#1624#0" expanded="false" />
+                <element signature="e#2181#2404#0" expanded="false" />
+                <element signature="e#2442#2878#0" expanded="false" />
+                <element signature="e#2927#3207#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -111,7 +141,6 @@
         <option value="$PROJECT_DIR$/appbgue/www/scripts/frameworks/firebase.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/frameworks/angularfire.min.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/services/bbdd.rules.json" />
-        <option value="$PROJECT_DIR$/appbgue/www/scripts/services/firebase.connect.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/services/firebase.data.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.constant.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/frameworks/ngStorage.min.js" />
@@ -123,21 +152,22 @@
         <option value="$PROJECT_DIR$/appbgue/www/data/products.json" />
         <option value="$PROJECT_DIR$/ani-angular-2-master/gulpfile.ts" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js" />
         <option value="$PROJECT_DIR$/appbgue/www/templates/bgue-index.html" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/index.controller.js" />
         <option value="$PROJECT_DIR$/appbgue/Gulpfile_2.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.config.js" />
-        <option value="$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js" />
-        <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js" />
-        <option value="$PROJECT_DIR$/appbgue/www/templates/bgue-end.html" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/end.controller.js" />
-        <option value="$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.router.js" />
         <option value="$PROJECT_DIR$/appbgue/www/css/index.css" />
         <option value="$PROJECT_DIR$/appbgue/www/scripts/directives/loading.directive.js" />
+        <option value="$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js" />
         <option value="$PROJECT_DIR$/appbgue/www/index.html" />
+        <option value="$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js" />
+        <option value="$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html" />
+        <option value="$PROJECT_DIR$/appbgue/www/templates/bgue-end.html" />
+        <option value="$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js" />
+        <option value="$PROJECT_DIR$/appbgue/www/scripts/services/firebase.connect.js" />
       </list>
     </option>
   </component>
@@ -250,28 +280,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbgue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -320,215 +328,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="directives" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbgue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbgue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbgue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="www" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbgue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbgue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbgue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbgue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="outputs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bgueApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="appbgue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="platforms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="outputs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="apk" />
+              <option name="myItemId" value="data" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -644,7 +444,7 @@
       <workItem from="1478164671907" duration="1345000" />
       <workItem from="1478180162665" duration="10564000" />
       <workItem from="1478590656662" duration="5887000" />
-      <workItem from="1478631306208" duration="9821000" />
+      <workItem from="1478631306208" duration="11437000" />
     </task>
     <task id="LOCAL-00001" summary="INIT PROYECT">
       <created>1476889929177</created>
@@ -835,11 +635,18 @@
       <option name="project" value="LOCAL" />
       <updated>1478622099215</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="add back img to body rel @media in index ctrl">
+      <created>1478642455956</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1478642455956</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142087000" />
+    <option name="totallyTimeSpent" value="143703000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -990,13 +797,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bbddrules.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/track2.controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="94">
@@ -1067,6 +867,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="588">
           <caret line="11376" column="4" selection-start-line="11376" selection-start-column="4" selection-end-line="11376" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1100,14 +901,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/firebase.connect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/www/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
@@ -1121,53 +914,6 @@
         <state relative-caret-position="234">
           <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1279">
-          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
-          <folding>
-            <element signature="e#1266#1348#0" expanded="false" />
-            <element signature="e#2019#2098#0" expanded="false" />
-            <element signature="e#2261#2510#0" expanded="false" />
-            <element signature="e#2923#3146#0" expanded="false" />
-            <element signature="e#3189#3558#0" expanded="false" />
-            <element signature="e#3596#4032#0" expanded="false" />
-            <element signature="e#4081#4361#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="89">
-          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="105" selection-end-column="25" />
-          <folding>
-            <element signature="n#style#0;n#md-icon#0;n#md-input-container#0;n#div#0;n#div#0;n#md-content#0;n#form#0;n#!!top" expanded="true" />
-            <element signature="n#table#0;n#div#1;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#md-radio-button#0;n#div#0;n#div#0;n#md-radio-group#0;n#div#2;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-end.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="88" column="86" selection-start-line="88" selection-start-column="86" selection-end-line="88" selection-end-column="86" />
-          <folding>
-            <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1211,14 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="24" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/cordova.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1227,18 +965,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js">
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/core/bgue.module.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="e#613#1148#0" expanded="false" />
-            <element signature="e#1946#2055#0" expanded="false" />
-            <element signature="e#2084#2129#0" expanded="false" />
-            <element signature="e#2160#2207#0" expanded="false" />
-            <element signature="e#2527#3377#0" expanded="false" />
-            <element signature="e#3412#3486#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="353">
+          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1252,8 +983,80 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/appbgue/www/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="27" column="14" selection-start-line="27" selection-start-column="14" selection-end-line="27" selection-end-column="14" />
+        <state relative-caret-position="242">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/controllers/track1.controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="e#1168#1250#0" expanded="false" />
+            <element signature="e#1545#1624#0" expanded="false" />
+            <element signature="e#2181#2404#0" expanded="false" />
+            <element signature="e#2442#2878#0" expanded="false" />
+            <element signature="e#2927#3207#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-track1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="73" column="12" selection-start-line="73" selection-start-column="12" selection-end-line="73" selection-end-column="12" />
+          <folding>
+            <element signature="n#style#0;n#md-icon#0;n#md-input-container#0;n#div#0;n#div#0;n#md-content#0;n#form#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/templates/bgue-end.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="80" column="20" selection-start-line="80" selection-start-column="20" selection-end-line="80" selection-end-column="20" />
+          <folding>
+            <element signature="n#div#2;n#div#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/data.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bbddrules.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/bgue.service.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="37" column="53" selection-start-line="37" selection-start-column="53" selection-end-line="37" selection-end-column="53" />
+          <folding>
+            <element signature="e#574#1109#0" expanded="false" />
+            <element signature="e#1861#1970#0" expanded="false" />
+            <element signature="e#1999#2044#0" expanded="false" />
+            <element signature="e#2075#2122#0" expanded="false" />
+            <element signature="e#3328#3402#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appbgue/www/scripts/services/firebase.connect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding />
         </state>
       </provider>

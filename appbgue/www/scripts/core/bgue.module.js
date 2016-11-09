@@ -26,6 +26,6 @@
     angular
         .module('bgue.controllers', ['ngMessages']);
     angular
-        .module('bgue.services', ['ngResource'])
+        .module('bgue.services', ['ngResource']);
 
 })(window.angular);

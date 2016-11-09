@@ -71,10 +71,6 @@
         </tr>
         </tbody>
         <tfoot>
-        <tr ng-if="track1Ctrl.showSendValue">
-            <td colspan="2" class="text-right"><h5><em>Gastos de Envio</em></h5></td>
-            <td colspan="2" class="text-right text-danger"><h5><em>15<span class="ml-5">&#8364;</span></em></h5></td>
-        </tr>
         <tr>
             <td colspan="2" class="text-right"><h4><b>TOTAL PEDIDO</b></h4></td>
             <td colspan="2" class="text-right text-primary"><h4><b>{{track1Ctrl.total | number:2}}</b><span
@@ -82,26 +78,6 @@
         </tr>
         </tfoot>
     </table>
-</div>
-<div class="row" ng-if="track1Ctrl.articles.length > 0">
-    <md-divider></md-divider>
-    <md-radio-group ng-model="track1Ctrl.method" ng-change="track1Ctrl.sending(track1Ctrl.method)">
-        <div ng-repeat='type in track1Ctrl.methodTypes'>
-            <div flex layout='row' layout-padding layout-align="start center" class="va-m">
-                <md-radio-button flex style="max-width:50px;"
-                                 aria-label="type.method"
-                                 ng-value="type"
-                                 ng-disabled="type.disabled"
-                                 class="md-primary">
-                </md-radio-button>
-                <div flex style="margin-bottom: 18px">
-                    <em class="text-success">{{type.info}}</em>
-                </div>
-
-
-            </div>
-        </div>
-    </md-radio-group>
 </div>
 <md-divider></md-divider>
 <div class="row">
@@ -111,7 +87,7 @@
             <md-icon md-svg-icon="logout"></md-icon>
         </md-button>
     </div>
-    <div class="pull-right" ng-if="track1Ctrl.method && track1Ctrl.articles.length > 0">
+    <div class="pull-right" ng-if="track1Ctrl.articles.length > 0">
         <md-button class="md-accent md-raised md-hue-1" ng-click="track1Ctrl.continue()">
             <em hide-xs>continuar</em>
             <md-icon md-svg-icon="right"></md-icon>
